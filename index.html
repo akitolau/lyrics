@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>歌词 · 两张精选专辑</title>
+<meta name="description" content="Seasons of Music / 都市失语纪 Lost in Metropolitan —— 两张精选专辑的全部歌词，40 首曲目。">
+<meta name="author" content="Akito Lau">
+<meta name="theme-color" content="#F5F0E0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F5F0E0'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%232E2C27' font-family='Songti SC,serif'%3E%E8%AF%8D%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --paper:#F5F0E0; --ink:#2E2C27; --ink-soft:#494640;
+  --muted:#8E887B; --muted-2:#A9A395;
+  --line:rgba(46,44,39,.13); --line-soft:rgba(46,44,39,.07);
+  --sakura:#E87A90; --ai:#2A4A6A;
+  --serif:"Songti SC","STSong","Source Han Serif SC","Noto Serif SC",serif;
+  --kai:"LXGW WenKai","霞鹜文楷","Kaiti SC","楷体-简","STKaiti",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  --acc:var(--ai); --acc-soft:rgba(42,74,106,.30);
+  --lyr:24em;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--kai);font-size:17px;line-height:2.0;-webkit-font-smoothing:antialiased;
+  background-image:
+    repeating-linear-gradient(58deg, rgba(120,110,90,.030) 0 1px, transparent 1px 7px),
+    repeating-linear-gradient(-31deg, rgba(120,110,90,.022) 0 1px, transparent 1px 11px),
+    radial-gradient(120% 90% at 50% -10%, rgba(255,255,255,.55), transparent 60%);}
+::selection{background:rgba(232,122,144,.22)}
+.progress{position:fixed;top:0;left:0;height:2px;width:0;z-index:60;
+  background:linear-gradient(90deg,var(--ai),var(--sakura));transition:width .1s linear}
+
+/* 页眉 */
+header.hero{padding:clamp(64px,11vh,112px) 28px clamp(28px,5vh,46px);text-align:center}
+header.hero .mark{width:1px;height:40px;margin:0 auto 24px;
+  background:linear-gradient(180deg,transparent,var(--muted-2))}
+h1.title{font-family:var(--serif);font-weight:600;font-size:clamp(42px,9vw,66px);
+  line-height:1;letter-spacing:.3em;margin:0 0 0 .3em;color:var(--ink)}
+header.hero .sub{font-family:var(--serif);font-size:13px;letter-spacing:.42em;color:var(--muted);
+  margin:24px 0 0 .42em}
+header.hero .meta{font-family:var(--sans);font-size:11.5px;letter-spacing:.2em;color:var(--muted-2);
+  margin-top:20px}
+header.hero .meta b{font-weight:500;color:var(--muted)}
+header.hero .dot{display:inline-block;width:4px;height:4px;border-radius:50%;
+  background:var(--sakura);vertical-align:middle;margin:0 9px;opacity:.75}
+
+/* 专辑切换 */
+nav.tabs{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;
+  padding:0 20px clamp(30px,6vh,50px);font-family:var(--sans)}
+nav.tabs button{
+  appearance:none;background:none;border:none;cursor:pointer;
+  font-family:var(--serif);font-size:15px;letter-spacing:.12em;color:var(--muted);
+  padding:9px 16px 11px;border-bottom:1px solid transparent;
+  transition:color .2s,border-color .2s}
+nav.tabs button:hover{color:var(--ink-soft)}
+nav.tabs button.on{color:var(--ink);border-bottom-color:var(--acc)}
+nav.tabs button .cn{opacity:.62;font-size:13px;margin-left:.5em}
+
+/* 网格 */
+.wrap{max-width:820px;margin:0 auto;padding:0 clamp(20px,5vw,52px);
+  display:grid;grid-template-columns:220px minmax(0,1fr);gap:clamp(24px,4vw,52px);align-items:start}
+
+/* 侧栏 */
+aside.side{position:sticky;top:32px;font-family:var(--sans);padding-bottom:60px}
+aside.side .album-en{font-family:var(--serif);font-size:19px;line-height:1.5;color:var(--ink);
+  letter-spacing:.02em}
+aside.side .album-cn{font-family:var(--serif);font-size:13.5px;color:var(--muted);margin-top:5px;
+  letter-spacing:.14em}
+aside.side .album-credit{font-size:10.5px;letter-spacing:.24em;color:var(--muted-2);
+  margin-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+aside.side .album-note{font-size:10.5px;line-height:1.9;color:var(--muted-2);
+  margin:12px 0 18px;letter-spacing:.02em}
+aside.side .toc-h{font-size:10.5px;letter-spacing:.34em;color:var(--muted-2);margin-bottom:10px}
+aside.side ol{list-style:none;margin:0;padding:0}
+aside.side li{margin:0}
+aside.side a{display:flex;gap:9px;align-items:baseline;text-decoration:none;color:var(--muted);
+  padding:6px 10px 6px 12px;border-left:1px solid var(--line-soft);
+  transition:color .18s,border-color .18s,background .18s}
+aside.side a:hover{color:var(--ink);border-left-color:var(--muted-2);background:rgba(255,255,255,.5)}
+aside.side a .n{font-size:10.5px;color:var(--muted-2);font-variant-numeric:tabular-nums;
+  min-width:1.7em;transition:color .18s}
+aside.side a .t{font-size:12.5px;line-height:1.6;font-family:var(--serif);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+aside.side a .ins{font-size:9.5px;letter-spacing:.14em;color:var(--muted-2);
+  border:1px solid var(--line);border-radius:2px;padding:0 4px;flex:0 0 auto}
+aside.side a.on{color:var(--ink);border-left-color:var(--acc);background:rgba(255,255,255,.72)}
+aside.side a.on .n{color:var(--acc)}
+
+/* 正文 */
+main{padding-bottom:clamp(70px,14vh,130px);min-width:0}
+.album{display:none}
+.album.on{display:block}
+.song{padding:0 0 clamp(48px,8vh,78px);scroll-margin-top:38px}
+.song + .song{border-top:1px solid var(--line-soft);padding-top:clamp(48px,8vh,78px)}
+.song-head{display:flex;align-items:baseline;gap:14px;margin-bottom:24px;flex-wrap:wrap}
+.song-head .no{font-family:var(--serif);font-size:clamp(24px,4.6vw,32px);line-height:1;
+  color:var(--acc);opacity:.42;font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.song-head h3{margin:0;font-family:var(--serif);font-weight:600;font-size:clamp(20px,3.4vw,24px);
+  line-height:1.45;letter-spacing:.04em;color:var(--ink)}
+.song-head h3 .en{font-size:.82em;font-weight:500;letter-spacing:.03em}
+.song-head h3 .cn{font-size:.72em;color:var(--muted);letter-spacing:.14em;margin-left:.6em}
+.song-head .tag{font-family:var(--sans);font-size:10px;letter-spacing:.2em;color:var(--muted);
+  border:1px solid var(--line);border-radius:2px;padding:2px 7px;transform:translateY(-2px)}
+.song-note{font-family:var(--sans);font-size:11.5px;letter-spacing:.06em;color:var(--muted-2);
+  margin:-12px 0 20px}
+.instr{font-family:var(--sans);font-size:12px;letter-spacing:.16em;color:var(--muted-2);
+  padding:2px 0 0}
+.lyr{max-width:var(--lyr)}
+.lyr p{margin:0;color:var(--ink-soft);font-size:18.5px;line-height:2.0}
+.lyr .l{padding-left:0}
+.lyr .pair{margin:0 0 1.3em}
+.lyr .pair:last-child{margin-bottom:0}
+.lyr .pair .en{color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.85;
+  letter-spacing:.01em}
+.lyr .pair .cn{color:var(--muted);font-size:15.5px;line-height:1.7;padding-left:1.1em}
+.lyr .line + .line{margin-top:0}
+footer{border-top:1px solid var(--line);padding:40px 28px 54px;text-align:center;font-family:var(--sans)}
+footer .cr{display:block;font-size:11.5px;letter-spacing:.16em;color:var(--muted)}
+footer .en{display:block;margin-top:10px;font-size:10px;letter-spacing:.22em;color:var(--muted-2)}
+footer .en + .en{margin-top:6px}
+
+@media (max-width:1000px){
+  .wrap{grid-template-columns:minmax(0,1fr)}
+  aside.side{position:static;top:auto;max-height:44vh;overflow:auto;
+    border:1px solid var(--line);border-radius:3px;padding:16px 14px 10px;
+    background:rgba(255,255,255,.42);margin-bottom:clamp(32px,7vh,52px)}
+}
+@media (max-width:560px){
+  body{font-size:16px;line-height:1.95}
+  h1.title{letter-spacing:.24em;margin-left:.24em}
+  header.hero .sub{letter-spacing:.3em;margin-left:.3em;font-size:12px}
+  .lyr .pair .cn{padding-left:.8em;font-size:14px}
+  .song-head .no{font-size:22px}
+}
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+
+<header class="hero">
+  <div class="mark"></div>
+  <h1 class="title">歌词</h1>
+  <div class="sub">三张专辑</div>
+  <div class="meta">40 首曲目<span class="dot"></span>35 首有词<span class="dot"></span><b>Akito Lau</b></div>
+</header>
+
+<nav class="tabs" id="tabs">
+    <button type="button" data-album="seasons" class="on" style="--acc:#2A4A6A">Seasons of Music</button>
+    <button type="button" data-album="metro" class="" style="--acc:#E87A90">Lost in Metropolitan<span class="cn">都市失语纪</span></button>
+    <button type="button" data-album="guaitan" class="" style="--acc:#5A4A6E">怪谈</button>
+</nav>
+
+<div class="wrap">
+
+  <aside class="side" id="side">
+    <div class="album-side" data-album="seasons"
+      style="--acc:#2A4A6A;--acc-soft:rgba(42,74,106,.30)">
+      <div class="album-en">Seasons of Music</div>
+      
+      <div class="album-credit">词曲 AKITO LAU</div>
+      <div class="album-note">1-12为有歌词曲目，后三首为无歌词曲目</div>
+      <div class="toc-h">曲目</div>
+      <ol>
+      <li><a href="#seasons-1"><span class="n">01</span><span class="t">Waves Ambient</span></a></li>
+      <li><a href="#seasons-2"><span class="n">02</span><span class="t">Coffee Times</span></a></li>
+      <li><a href="#seasons-3"><span class="n">03</span><span class="t">Small Happiness · 小快乐</span></a></li>
+      <li><a href="#seasons-4"><span class="n">04</span><span class="t">三香广场</span></a></li>
+      <li><a href="#seasons-5"><span class="n">05</span><span class="t">Ash of Hour</span></a></li>
+      <li><a href="#seasons-6"><span class="n">06</span><span class="t">Lonely Drink</span></a></li>
+      <li><a href="#seasons-7"><span class="n">07</span><span class="t">Four Seasons</span></a></li>
+      <li><a href="#seasons-8"><span class="n">08</span><span class="t">Wind Forgot</span></a></li>
+      <li><a href="#seasons-9"><span class="n">09</span><span class="t">如何</span></a></li>
+      <li><a href="#seasons-10"><span class="n">10</span><span class="t">霓虹之后</span></a></li>
+      <li><a href="#seasons-11"><span class="n">11</span><span class="t">Lullaby</span></a></li>
+      <li><a href="#seasons-12"><span class="n">12</span><span class="t">无为</span></a></li>
+      <li><a href="#seasons-13"><span class="n">13</span><span class="t">Guitar in Blues</span><span class="ins">器乐</span></a></li>
+      <li><a href="#seasons-14"><span class="n">14</span><span class="t">Shadows of Moon Rescue</span><span class="ins">器乐</span></a></li>
+      <li><a href="#seasons-15"><span class="n">15</span><span class="t">Mist</span><span class="ins">器乐</span></a></li>
+      </ol>
+    </div>
+    <div class="album-side" data-album="metro" hidden
+      style="--acc:#E87A90;--acc-soft:rgba(232,122,144,.34)">
+      <div class="album-en">Lost in Metropolitan</div>
+      <div class="album-cn">都市失语纪</div>
+      <div class="album-credit">词曲 AKITO LAU</div>
+      
+      <div class="toc-h">曲目</div>
+      <ol>
+      <li><a href="#metro-1"><span class="n">01</span><span class="t">大大的世界，小小的我</span></a></li>
+      <li><a href="#metro-2"><span class="n">02</span><span class="t">风铃</span></a></li>
+      <li><a href="#metro-3"><span class="n">03</span><span class="t">雕花橙子</span></a></li>
+      <li><a href="#metro-4"><span class="n">04</span><span class="t">被动</span></a></li>
+      <li><a href="#metro-5"><span class="n">05</span><span class="t">悬而不述</span></a></li>
+      <li><a href="#metro-6"><span class="n">06</span><span class="t">转机</span></a></li>
+      <li><a href="#metro-7"><span class="n">07</span><span class="t">失语</span></a></li>
+      <li><a href="#metro-8"><span class="n">08</span><span class="t">围墙</span></a></li>
+      <li><a href="#metro-9"><span class="n">09</span><span class="t">锋芒</span></a></li>
+      <li><a href="#metro-10"><span class="n">10</span><span class="t">沉海</span></a></li>
+      <li><a href="#metro-11"><span class="n">11</span><span class="t">定义</span></a></li>
+      <li><a href="#metro-12"><span class="n">12</span><span class="t">奔流</span></a></li>
+      <li><a href="#metro-13"><span class="n">13</span><span class="t">芝华塔尼欧</span></a></li>
+      <li><a href="#metro-14"><span class="n">14</span><span class="t">都会クラブ</span><span class="ins">器乐</span></a></li>
+      </ol>
+    </div>
+    <div class="album-side" data-album="guaitan" hidden
+      style="--acc:#5A4A6E;--acc-soft:rgba(90,74,110,.34)">
+      <div class="album-en">怪谈</div>
+      
+      <div class="album-credit">词曲 AKITO LAU</div>
+      
+      <div class="toc-h">曲目</div>
+      <ol>
+      <li><a href="#guaitan-1"><span class="n">01</span><span class="t">The World Is My Playdoll</span></a></li>
+      <li><a href="#guaitan-2"><span class="n">02</span><span class="t">Wilderness</span></a></li>
+      <li><a href="#guaitan-3"><span class="n">03</span><span class="t">一汪水</span></a></li>
+      <li><a href="#guaitan-4"><span class="n">04</span><span class="t">出口</span></a></li>
+      <li><a href="#guaitan-5"><span class="n">05</span><span class="t">蛹（electro）</span><span class="ins">器乐</span></a></li>
+      <li><a href="#guaitan-6"><span class="n">06</span><span class="t">蹩脚的修饰</span></a></li>
+      <li><a href="#guaitan-7"><span class="n">07</span><span class="t">光</span></a></li>
+      <li><a href="#guaitan-8"><span class="n">08</span><span class="t">Bubble Joy</span></a></li>
+      <li><a href="#guaitan-9"><span class="n">09</span><span class="t">夏日之后</span></a></li>
+      <li><a href="#guaitan-10"><span class="n">10</span><span class="t">冬季</span></a></li>
+      <li><a href="#guaitan-11"><span class="n">11</span><span class="t">蛹</span></a></li>
+      </ol>
+    </div>
+  </aside>
+
+  <main id="main">
+    <div class="album on" data-album="seasons"
+      style="--acc:#2A4A6A;--acc-soft:rgba(42,74,106,.30)">
+      <section class="song" id="seasons-1" data-no="1">
+        <div class="song-head"><span class="no">01</span><h3><span class="en">Waves Ambient</span></h3></div>
+        <div class="lyr">
+          <p class="line">海风吹拂</p>
+          <p class="line">海浪翻涌</p>
+          <p class="line">海螺出现</p>
+          <p class="line">在你眼中</p>
+          <p class="line">海风吹拂</p>
+          <p class="line">海浪翻涌</p>
+          <p class="line">海螺出现</p>
+          <p class="line">在我眼中</p>
+          <p class="line">海风它吹拂</p>
+          <p class="line">海浪它翻涌</p>
+          <p class="line">海螺它出现</p>
+          <p class="line">在我的眼中</p>
+        </div>
+      </section>
+      <section class="song" id="seasons-2" data-no="2">
+        <div class="song-head"><span class="no">02</span><h3><span class="en">Coffee Times</span></h3></div>
+        <div class="lyr">
+          <div class="pair"><p class="en">The sun is low upon the street</p><p class="cn">街头斜阳低垂</p></div>
+          <div class="pair"><p class="en">We’re walking slow with tired feet</p><p class="cn">我们拖着疲惫的脚步慢慢走</p></div>
+          <div class="pair"><p class="en">The wooden door, the yellow light</p><p class="cn">木门轻掩，暖黄灯光</p></div>
+          <div class="pair"><p class="en">Everything is feeling right</p><p class="cn">一切都恰到好处</p></div>
+          <div class="pair"><p class="en">Vinyl plays a song so old</p><p class="cn">黑胶唱着一首古老的歌</p></div>
+          <div class="pair"><p class="en">Outside the wind is getting cold</p><p class="cn">窗外的风渐渐转凉</p></div>
+          <div class="pair"><p class="en">Your favorite chair, the window pane</p><p class="cn">你最爱的那张椅子，临着窗边</p></div>
+          <div class="pair"><p class="en">We’re hiding from the little rain</p><p class="cn">我们躲着这细碎的小雨</p></div>
+          <div class="pair"><p class="en">Cappuccino in your hand</p><p class="cn">你手里捧着一杯卡布奇诺</p></div>
+          <div class="pair"><p class="en">The best time in all the land</p><p class="cn">这是世间最美的时光</p></div>
+          <div class="pair"><p class="en">We got no place to go</p><p class="cn">我们无处可去</p></div>
+          <div class="pair"><p class="en">We just take it slow</p><p class="cn">只想慢慢地过</p></div>
+          <div class="pair"><p class="en">Oh, coffee times with you</p><p class="cn">啊，与你共度的咖啡时光</p></div>
+          <div class="pair"><p class="en">Nothing else we need to do</p><p class="cn">不必再做任何事</p></div>
+          <div class="pair"><p class="en">Young and wild, lost and free</p><p class="cn">年轻恣意，迷失却自由</p></div>
+          <div class="pair"><p class="en">Just you and the coffee and me</p><p class="cn">只有你、咖啡，还有我</p></div>
+          <div class="pair"><p class="en">Looking at the sugar in the bowl</p><p class="cn">看着碗里的方糖</p></div>
+          <div class="pair"><p class="en">Spending time is good for the soul</p><p class="cn">消磨时光也能滋养灵魂</p></div>
+          <div class="pair"><p class="en">Let the world just spin around</p><p class="cn">让世界自在运转</p></div>
+          <div class="pair"><p class="en">We are happy with the sound</p><p class="cn">我们沉浸于此刻的声音</p></div>
+          <div class="pair"><p class="en">Oh, coffee times with you</p><p class="cn">啊，与你共度的咖啡时光</p></div>
+          <div class="pair"><p class="en">Nothing else we need to do</p><p class="cn">不必再做任何事</p></div>
+          <div class="pair"><p class="en">Young and wild, lost and free</p><p class="cn">年轻恣意，迷失却自由</p></div>
+          <div class="pair"><p class="en">Just you and the coffee and me</p><p class="cn">只有你、咖啡，还有我</p></div>
+          <div class="pair"><p class="en">Oh, coffee times with you</p><p class="cn">啊，与你共度的咖啡时光</p></div>
+          <div class="pair"><p class="en">I don't care anything they do</p><p class="cn">他人如何，我都不在意</p></div>
+          <div class="pair"><p class="en">Young and bold, be this forever</p><p class="cn">年少无畏，愿此刻长存</p></div>
+          <div class="pair"><p class="en">nothing compares this ever</p><p class="cn">没有什么能与之相比</p></div>
+          <div class="pair"><p class="en">Ah</p><p class="cn">啊</p></div>
+          <div class="pair"><p class="en">People running, people fast</p><p class="cn">人群匆匆，步履飞快</p></div>
+          <div class="pair"><p class="en">We’ll make this moment last</p><p class="cn">而我们让此刻停留</p></div>
+          <div class="pair"><p class="en">In this little magic place</p><p class="cn">在这小小的魔法之地</p></div>
+          <div class="pair"><p class="en">I love to see your smiling face</p><p class="cn">我喜欢看你微笑的样子</p></div>
+          <div class="pair"><p class="en">Oh, coffee times with you</p><p class="cn">啊，与你共度的咖啡时光</p></div>
+          <div class="pair"><p class="en">Nothing else we need to do</p><p class="cn">不必再做任何事</p></div>
+          <div class="pair"><p class="en">Young and wild, lost and free</p><p class="cn">年轻恣意，迷失却自由</p></div>
+          <div class="pair"><p class="en">Just you and the coffee and me</p><p class="cn">只有你、咖啡，还有我</p></div>
+          <div class="pair"><p class="en">Oh, coffee times with you</p><p class="cn">啊，与你共度的咖啡时光</p></div>
+          <div class="pair"><p class="en">I don't care anything they do</p><p class="cn">他人如何，我都不在意</p></div>
+          <div class="pair"><p class="en">Young and bold, be this forever</p><p class="cn">年少无畏，愿此刻长存</p></div>
+          <div class="pair"><p class="en">nothing compares this ever</p><p class="cn">没有什么能与之相比</p></div>
+          <div class="pair"><p class="en">One more cup</p><p class="cn">再来一杯</p></div>
+          <div class="pair"><p class="en">One more cup</p><p class="cn">再来一杯</p></div>
+          <div class="pair"><p class="en">One more cup</p><p class="cn">再来一杯</p></div>
+          <div class="pair"><p class="en">Coffee times...</p><p class="cn">咖啡时光……</p></div>
+        </div>
+      </section>
+      <section class="song" id="seasons-3" data-no="3">
+        <div class="song-head"><span class="no">03</span><h3><span class="en">Small Happiness</span><span class="cn">小快乐</span></h3></div>
+        <div class="lyr">
+          <p class="line">清晨我醒来</p>
+          <p class="line">窗外花正开</p>
+          <p class="line">好似有阴雨</p>
+          <p class="line">但还没到来</p>
+          <p class="line">踏上青草地</p>
+          <p class="line">寻一家咖啡</p>
+          <p class="line">同老板闲聊</p>
+          <p class="line">等云层裂开</p>
+          <p class="line">日光有弧度</p>
+          <p class="line">清风不常来</p>
+          <p class="line">谨请君记得</p>
+          <p class="line">好运会再来</p>
+          <p class="line">梦想有代价</p>
+          <p class="line">宇宙无限大</p>
+          <p class="line">请你我记得</p>
+          <p class="line">要保持期待</p>
+        </div>
+      </section>
+      <section class="song" id="seasons-4" data-no="4">
+        <div class="song-head"><span class="no">04</span><h3><span class="cn">三香广场</span></h3></div>
+        <div class="lyr">
+          <p class="line">那一天我走到三香广场</p>
+          <p class="line">绿影摇风吹散旧时光</p>
+          <p class="line">几只野猫目光微微发亮</p>
+          <p class="line">早樱一行静静落在草上</p>
+          <p class="line">姑胥桥边沿水走了半晌</p>
+          <p class="line">十全街口听人声回响</p>
+          <p class="line">人潮如织来去没有方向</p>
+          <p class="line">仿佛一切又能重新开场</p>
+          <p class="line">从前不曾停下好好张望</p>
+          <p class="line">只道此生要直上云上</p>
+          <p class="line">忘了路上有谁轻轻吟唱</p>
+          <p class="line">也忘了风吹过谁的模样</p>
+          <p class="line">如今只想把往事都安放</p>
+          <p class="line">在这街巷慢慢遗忘</p>
+          <p class="line">走了很久仍在原地游荡</p>
+          <p class="line">哪一条路才通往远方</p>
+          <p class="line">或许不过是一场臆想</p>
+          <p class="line">其实从来没有彼岸</p>
+          <p class="line">朋友散落各自去往远方</p>
+          <p class="line">回头看去像一场梦一样</p>
+          <p class="line">而我只想留住一点微光</p>
+          <p class="line">于是仍在三香广场</p>
+        </div>
+      </section>
+      <section class="song" id="seasons-5" data-no="5">
+        <div class="song-head"><span class="no">05</span><h3><span class="en">Ash of Hour</span></h3></div>
+        <div class="lyr">
+          <div class="pair"><p class="en">We breathe in circles,</p><p class="cn">我们循环呼吸，</p></div>
+          <div class="pair"><p class="en">Unnamed, unseen.</p><p class="cn">无名，无声。</p></div>
+          <div class="pair"><p class="en">Time slips through silence</p><p class="cn">时间穿过寂静，</p></div>
+          <div class="pair"><p class="en">Like it has never been.</p><p class="cn">仿佛从未发生。</p></div>
+          <div class="pair"><p class="en">We trace our shadows</p><p class="cn">我们描摹着影子，</p></div>
+          <div class="pair"><p class="en">On vanishing ground,</p><p class="cn">在消逝的大地上，</p></div>
+          <div class="pair"><p class="en">Calling it living—</p><p class="cn">将这一切称作活着——</p></div>
+          <div class="pair"><p class="en">No echo, no sound.</p><p class="cn">没有回响，没有声响。</p></div>
+          <div class="pair"><p class="en">Ash of the hours,</p><p class="cn">时光的灰烬，</p></div>
+          <div class="pair"><p class="en">Falling like snow,</p><p class="cn">像雪一样飘落，</p></div>
+          <div class="pair"><p class="en">Nothing remembers</p><p class="cn">没有什么会记得，</p></div>
+          <div class="pair"><p class="en">The names that we know.</p><p class="cn">我们曾拥有的名字。</p></div>
+          <div class="pair"><p class="en">We were a moment,</p><p class="cn">我们只是一个瞬间，</p></div>
+          <div class="pair"><p class="en">Borrowed, then gone—</p><p class="cn">借来，而后离去——</p></div>
+          <div class="pair"><p class="en">A pause in the dark</p><p class="cn">黑暗里短暂的停顿，</p></div>
+          <div class="pair"><p class="en">That keeps moving on.</p><p class="cn">而黑暗仍不停继续。</p></div>
+        </div>
+      </section>
+      <section class="song" id="seasons-6" data-no="6">
+        <div class="song-head"><span class="no">06</span><h3><span class="en">Lonely Drink</span></h3></div>
+        <div class="lyr">
+          <p class="line">今天我才开始惶恐震惊废</p>
+          <p class="line">在命运的渡口忍不住流泪</p>
+          <p class="line">漂泊的日子里找不到所谓</p>
+          <p class="line">残酷的现实也不承认眼泪</p>
+          <p class="line">在酒吧找朋友想去喝一杯</p>
+          <p class="line">却被告知都有事情去作陪</p>
+          <p class="line">于是我一个人喝起了伤悲</p>
+          <p class="line">眼中没有光彩只一片漆黑</p>
+          <p class="line">谁说这其实是最好的年岁</p>
+          <p class="line">原来我也只是时代的尘微</p>
+          <p class="line">大山压下如果我没有自卫</p>
+          <p class="line">只配在泥土里安静地沉睡</p>
+          <p class="line">干了杯之后我才有所作为</p>
+          <p class="line">毕竟我小人物只敢趁着醉</p>
+          <p class="line">对公司的领导我敬你一杯</p>
+          <p class="line">一杯又一杯后我有没有机会</p>
+        </div>
+      </section>
+      <section class="song" id="seasons-7" data-no="7">
+        <div class="song-head"><span class="no">07</span><h3><span class="en">Four Seasons</span></h3></div>
+        <div class="lyr">
+          <div class="pair"><p class="en">Ah Ah Ah Ah</p><p class="cn">啊 啊 啊 啊</p></div>
+          <div class="pair"><p class="en">Ah Ah Ah Ah</p><p class="cn">啊 啊 啊 啊</p></div>
+          <div class="pair"><p class="en">Ah Ah Ah Ah</p><p class="cn">啊 啊 啊 啊</p></div>
+          <div class="pair"><p class="en">I woke up in winter</p><p class="cn">我在冬季苏醒</p></div>
+          <div class="pair"><p class="en">I grew up in spring</p><p class="cn">我在春季成长</p></div>
+          <div class="pair"><p class="en">I dance in summer</p><p class="cn">我在夏季起舞</p></div>
+          <div class="pair"><p class="en">And I will be buried in autumn</p><p class="cn">而我将在秋季埋葬</p></div>
+          <div class="pair"><p class="en">I woke up in winter</p><p class="cn">我在冬季苏醒</p></div>
+          <div class="pair"><p class="en">I grew up in spring</p><p class="cn">我在春季成长</p></div>
+          <div class="pair"><p class="en">I dance in summer</p><p class="cn">我在夏季起舞</p></div>
+          <div class="pair"><p class="en">And I will be buried in autumn</p><p class="cn">而我将在秋季埋葬</p></div>
+          <div class="pair"><p class="en">Four seasons pass me by</p><p class="cn">四季从我身边掠过</p></div>
+          <div class="pair"><p class="en">There's no chance see me cry</p><p class="cn">没有机会看到我哭泣</p></div>
+          <div class="pair"><p class="en">Four seasons pass me by</p><p class="cn">四季从我身边掠过</p></div>
+          <div class="pair"><p class="en">We cannot say goodbye</p><p class="cn">我们无法说再见</p></div>
+          <div class="pair"><p class="en">Four seasons wish I could</p><p class="cn">四季啊 但愿我能</p></div>
+          <div class="pair"><p class="en">Survive this lonely night</p><p class="cn">熬过这孤独的夜晚</p></div>
+          <div class="pair"><p class="en">Four seasons please be kind to me</p><p class="cn">四季啊 请对我仁慈</p></div>
+          <div class="pair"><p class="en">I won't lie coz I will die</p><p class="cn">我不会说谎 因为我将死去</p></div>
+          <div class="pair"><p class="en">I- will not survive</p><p class="cn">我——无法幸存</p></div>
+          <div class="pair"><p class="en">I- will not survive</p><p class="cn">我——无法幸存</p></div>
+          <div class="pair"><p class="en">I- will not survive</p><p class="cn">我——无法幸存</p></div>
+          <div class="pair"><p class="en">Oh, this time</p><p class="cn">哦，这一次</p></div>
+          <div class="pair"><p class="en">Four seasons pass me by</p><p class="cn">四季从我身边掠过</p></div>
+          <div class="pair"><p class="en">There's no chance see me cry</p><p class="cn">没有机会看到我哭泣</p></div>
+          <div class="pair"><p class="en">Four seasons pass me by</p><p class="cn">四季从我身边掠过</p></div>
+          <div class="pair"><p class="en">We cannot say goodbye</p><p class="cn">我们无法说再见</p></div>
+        </div>
+      </section>
+      <section class="song" id="seasons-8" data-no="8">
+        <div class="song-head"><span class="no">08</span><h3><span class="en">Wind Forgot</span></h3></div>
+        <div class="lyr">
+          <div class="pair"><p class="en">I found a road behind the riverbed</p><p class="cn">我在河床后找到一条路</p></div>
+          <div class="pair"><p class="en">The night was thick with something unnamed</p><p class="cn">夜色浓稠，盛着无名之物</p></div>
+          <div class="pair"><p class="en">The moon was broken in the trees</p><p class="cn">月光在树影间碎成残片</p></div>
+          <div class="pair"><p class="en">Like something trying not to be seen</p><p class="cn">像什么在躲避着视线</p></div>
+          <div class="pair"><p class="en">She stood where the path lost shape</p><p class="cn">她站在路径消失的地方</p></div>
+          <div class="pair"><p class="en">Not waiting, just already there</p><p class="cn">并非等待，只是早已在那里</p></div>
+          <div class="pair"><p class="en">She said stay like it was decided</p><p class="cn">她说留下吧，仿佛早已注定</p></div>
+          <div class="pair"><p class="en">Like I’d never been elsewhere</p><p class="cn">仿佛我从未去过别处</p></div>
+          <div class="pair"><p class="en">We spoke in glances, not in words</p><p class="cn">我们以目光交谈，而非言语</p></div>
+          <div class="pair"><p class="en">Time moved softer than our breath</p><p class="cn">时间比呼吸更轻柔地流淌</p></div>
+          <div class="pair"><p class="en">Her hand was warm but barely held</p><p class="cn">她的手温暖，却只是轻轻握着</p></div>
+          <div class="pair"><p class="en">Like it could vanish if I pressed</p><p class="cn">仿佛我稍一用力便会消散</p></div>
+          <div class="pair"><p class="en">She asked if nights remember us</p><p class="cn">她问夜晚是否还记得我们</p></div>
+          <div class="pair"><p class="en">I felt the answer in my chest</p><p class="cn">答案在我胸口涌动</p></div>
+          <div class="pair"><p class="en">The wind moved slowly through the leaves</p><p class="cn">风缓缓穿过树叶</p></div>
+          <div class="pair"><p class="en">Like it was listening to us</p><p class="cn">像是在倾听我们的低语</p></div>
+          <div class="pair"><p class="en">We fell like water finds the ground</p><p class="cn">我们坠落如水流向大地</p></div>
+          <div class="pair"><p class="en">No names, no past, no need for more</p><p class="cn">没有名字，没有过往，无需更多</p></div>
+          <div class="pair"><p class="en">The dark was closer than our skin</p><p class="cn">黑暗比我们的肌肤更近</p></div>
+          <div class="pair"><p class="en">And I forgot what came before</p><p class="cn">我忘记了发生过的所有</p></div>
+          <div class="pair"><p class="en">I woke where nothing stayed behind</p><p class="cn">醒来时身后空无一物</p></div>
+          <div class="pair"><p class="en">No road, no trace, no echo left</p><p class="cn">没有路，没有痕迹，没有回声</p></div>
+          <div class="pair"><p class="en">Just something aching in the air</p><p class="cn">只有某种痛楚悬在空气里</p></div>
+          <div class="pair"><p class="en">A name the wind refused to keep</p><p class="cn">一个风拒绝保留的名字</p></div>
+        </div>
+      </section>
+      <section class="song" id="seasons-9" data-no="9">
+        <div class="song-head"><span class="no">09</span><h3><span class="cn">如何</span></h3></div>
+        <div class="lyr">
+          <p class="line">如何跨越这座大山</p>
+          <p class="line">热爱和理性会合理分摊</p>
+          <p class="line">如何让梦变得简单</p>
+          <p class="line">汗水与泪水总相依相伴</p>
+          <p class="line">如何让真相浮向岸</p>
+          <p class="line">谎言与欺骗被轻描写淡</p>
+          <p class="line">如何把酒洒在云端</p>
+          <p class="line">把鸿鹄之志倾倒随风散</p>
+          <p class="line">如何穿过人海之间</p>
+          <p class="line">温柔与冷漠都不必隐瞒</p>
+          <p class="line">如何让夜不再漫延</p>
+          <p class="line">灯火与孤独交替上演</p>
+          <p class="line">如何选择如何抵岸</p>
+          <p class="line">澄澈的心会透明而璀璨</p>
+          <p class="line">如何污浊如何不堪</p>
+          <p class="line">魔鬼的交易有两两三三</p>
+          <p class="line">如何失去如何释然</p>
+          <p class="line">命里无时只是一记寒颤</p>
+          <p class="line">如何失去如何释然</p>
+          <p class="line">命里无时只是一记寒颤</p>
+          <p class="line">如何选择如何抵岸</p>
+          <p class="line">澄澈的心会透明而璀璨</p>
+          <p class="line">如何污浊如何不堪</p>
+          <p class="line">魔鬼的交易有两两三三</p>
+          <p class="line">如何拥有如何珍藏</p>
+          <p class="line">注定有时也会大梦一场</p>
+        </div>
+      </section>
+      <section class="song" id="seasons-10" data-no="10">
+        <div class="song-head"><span class="no">10</span><h3><span class="cn">霓虹之后</span></h3></div>
+        <div class="lyr">
+          <p class="line">夜色压低了街口的灯</p>
+          <p class="line">人群像潮水退得无声</p>
+          <p class="line">便利店门口亮着凌晨</p>
+          <p class="line">我却找不到可以靠近的人</p>
+          <p class="line">地铁最后一班已关门</p>
+          <p class="line">屏幕反光映出陌生</p>
+          <p class="line">消息框停在已读未等</p>
+          <p class="line">像一句话卡在喉咙不肯承认</p>
+          <p class="line">风吹过高楼之间的缝</p>
+          <p class="line">像谁在重复我的疑问</p>
+          <p class="line">风吹过高楼之间的缝</p>
+          <p class="line">像谁在重复我的疑问</p>
+          <p class="line">霓虹亮着却没有人等</p>
+          <p class="line">城市很大却没有我们</p>
+          <p class="line">每一扇窗都有故事在发生</p>
+          <p class="line">咖啡已经凉了几分</p>
+          <p class="line">耳机循环着旧的灵魂</p>
+          <p class="line">他们唱着爱与永恒</p>
+          <p class="line">我却只听见破碎的回声</p>
+          <p class="line">我走很远却走不出这座城</p>
+          <p class="line">笑着活着却越来越冷</p>
+          <p class="line">如果孤独是一种默认</p>
+          <p class="line">那我是不是早就被承认</p>
+          <p class="line">霓虹慢慢熄灭黄昏</p>
+          <p class="line">街道终于变得安稳</p>
+          <p class="line">如果世界真的需要一个人</p>
+          <p class="line">那会不会也轮到我一轮</p>
+          <p class="line">我不再问有没有人等</p>
+          <p class="line">也不再敢数失去几分</p>
+          <p class="line">只是在人海最深的部分</p>
+          <p class="line">学会与自己对视一阵</p>
+          <p class="line">也许某一天清晨</p>
+          <p class="line">我也会在人群失真</p>
+          <p class="line">像从未存在过的人</p>
+          <p class="line">被时间轻轻归还给时间本身</p>
+        </div>
+      </section>
+      <section class="song" id="seasons-11" data-no="11">
+        <div class="song-head"><span class="no">11</span><h3><span class="en">Lullaby</span></h3></div>
+        <div class="lyr">
+          <div class="pair"><p class="en">I wanna be your lullaby</p><p class="cn">我想做你的摇篮曲</p></div>
+          <div class="pair"><p class="en">I don't wanna see you cry</p><p class="cn">我不想看到你哭泣</p></div>
+          <div class="pair"><p class="en">When you are arriving, please tell me</p><p class="cn">当你到来时，请告诉我</p></div>
+          <div class="pair"><p class="en">I'll be the first to see you smile</p><p class="cn">我会是第一个看到你微笑的人</p></div>
+          <div class="pair"><p class="en">I wanna be your love song</p><p class="cn">我想做你的情歌</p></div>
+          <div class="pair"><p class="en">I don't wanna see you cry</p><p class="cn">我不想看到你哭泣</p></div>
+          <div class="pair"><p class="en">When you are arriving, please tell me</p><p class="cn">当你到来时，请告诉我</p></div>
+          <div class="pair"><p class="en">I'll be the first to see you smile</p><p class="cn">我会是第一个看到你微笑的人</p></div>
+          <div class="pair"><p class="en">How time flies, you say</p><p class="cn">你说时光飞逝</p></div>
+          <div class="pair"><p class="en">We are not children I agree</p><p class="cn">我们不再是孩子，我同意</p></div>
+          <div class="pair"><p class="en">Cannot believe the fairytales</p><p class="cn">无法相信那些童话</p></div>
+          <div class="pair"><p class="en">Only summer tree</p><p class="cn">只有夏天的树</p></div>
+          <div class="pair"><p class="en">Only summer tree</p><p class="cn">只有夏天的树</p></div>
+          <div class="pair"><p class="en">I wanna be your lullaby</p><p class="cn">我想做你的摇篮曲</p></div>
+          <div class="pair"><p class="en">I don't wanna see you cry</p><p class="cn">我不想看到你哭泣</p></div>
+          <div class="pair"><p class="en">To swipe away your nightmares</p><p class="cn">为你拂去噩梦</p></div>
+          <div class="pair"><p class="en">I'll be the first to see you smile</p><p class="cn">我会是第一个看到你微笑的人</p></div>
+        </div>
+      </section>
+      <section class="song" id="seasons-12" data-no="12">
+        <div class="song-head"><span class="no">12</span><h3><span class="cn">无为</span></h3></div>
+        <div class="lyr">
+          <p class="line">指尖划过冰凉</p>
+          <p class="line">小调沉沦哀伤</p>
+          <p class="line">时针缝补噩梦</p>
+          <p class="line">此刻萌动希望</p>
+          <p class="line">你看这杯融化的浮冰</p>
+          <p class="line">失去形状才拥有生命</p>
+          <p class="line">路人擦肩谁记谁姓名</p>
+          <p class="line">你又何必赶这趟远行</p>
+          <p class="line">来自哪里</p>
+          <p class="line">去向哪里</p>
+          <p class="line">找到什么</p>
+          <p class="line">只是过客</p>
+          <p class="line">你手心紧握满是汗滴</p>
+          <p class="line">盘算着那场还没来的雨</p>
+          <p class="line">可草木生长从不着急</p>
+          <p class="line">它只管呼吸不问归期</p>
+          <p class="line">循序渐进的生命流动</p>
+          <p class="line">拥有瞬间就拥有时间</p>
+          <p class="line">人群谢幕本无影无踪</p>
+          <p class="line">患得患失勿行色匆匆</p>
+          <p class="line">我们是宇宙遗落的余烬</p>
+          <p class="line">落在深蓝里没人会认领</p>
+          <p class="line">别让那得失锁住了心门</p>
+          <p class="line">去吻这转瞬即逝的黄昏</p>
+          <p class="line">La...</p>
+          <p class="line">拆封一罐冒泡的惬意</p>
+          <p class="line">晚风路过没留下轨迹</p>
+          <p class="line">那些曾经折磨的算计</p>
+          <p class="line">在月光底下毫无意义</p>
+          <p class="line">看潮汐往返不留痕迹</p>
+          <p class="line">看枯叶落下顺应重力</p>
+          <p class="line">不需要奔跑也能到达</p>
+          <p class="line">那循序渐进就是真理</p>
+          <p class="line">做一个安静旁观的人</p>
+          <p class="line">在光影交错之中沉沦</p>
+          <p class="line">撕掉那患得患失的剧本</p>
+          <p class="line">混沌中无为自然地脱身</p>
+          <p class="line">尘埃落定</p>
+          <p class="line">万物静默</p>
+        </div>
+      </section>
+      <section class="song" id="seasons-13" data-no="13">
+        <div class="song-head"><span class="no">13</span><h3><span class="en">Guitar in Blues</span></h3><span class="tag">器乐</span></div>
+        <p class="instr">器乐 · 无歌词</p>
+      </section>
+      <section class="song" id="seasons-14" data-no="14">
+        <div class="song-head"><span class="no">14</span><h3><span class="en">Shadows of Moon Rescue</span></h3><span class="tag">器乐</span></div>
+        <p class="instr">器乐 · 无歌词</p>
+      </section>
+      <section class="song" id="seasons-15" data-no="15">
+        <div class="song-head"><span class="no">15</span><h3><span class="en">Mist</span></h3><span class="tag">器乐</span></div>
+        <p class="instr">器乐 · 无歌词</p>
+      </section>
+    </div>
+    <div class="album" data-album="metro"
+      style="--acc:#E87A90;--acc-soft:rgba(232,122,144,.34)">
+      <section class="song" id="metro-1" data-no="1">
+        <div class="song-head"><span class="no">01</span><h3><span class="cn">大大的世界，小小的我</span></h3></div>
+        <div class="lyr">
+          <p class="line">地铁串起偌大的城</p>
+          <p class="line">我们被困在路线之中</p>
+          <p class="line">日子过得局促又普通</p>
+          <p class="line">每天敲定起点与回程</p>
+          <p class="line">哪里有工作</p>
+          <p class="line">就往哪里漂泊</p>
+          <p class="line">还好街角的全家</p>
+          <p class="line">总有一份温热便当</p>
+          <p class="line">像一条细细的线</p>
+          <p class="line">轻轻拉住我</p>
+          <p class="line">不让我漫无目的地流落</p>
+          <p class="line">在偌大城市里面</p>
+          <p class="line">当个奇怪的人也不算危险</p>
+          <p class="line">掉下来的眼泪</p>
+          <p class="line">会悄悄融进人潮里面</p>
+          <p class="line">光鲜的路要有人铺垫</p>
+          <p class="line">我们都是不起眼的碎片</p>
+          <p class="line">擦肩都是陌生人</p>
+          <p class="line">不必寒暄不必留念</p>
+          <p class="line">偶尔绕路走走公园</p>
+          <p class="line">琐碎的委屈和执念</p>
+          <p class="line">都会被下一班地铁</p>
+          <p class="line">悄悄带远</p>
+          <p class="line">每到深夜</p>
+          <p class="line">总想把自己拆成碎片</p>
+          <p class="line">切断所有人际牵连</p>
+          <p class="line">不用迎合谁</p>
+          <p class="line">才能安心入眠</p>
+          <p class="line">仅仅只是</p>
+          <p class="line">不想失眠</p>
+          <p class="line">狭窄的出租小屋</p>
+          <p class="line">装不下我的偏爱与热爱</p>
+          <p class="line">黑胶堆了又堆</p>
+          <p class="line">乐器始终懒得拆开</p>
+          <p class="line">梦里有宽敞的房子</p>
+          <p class="line">有爱人小猫在窗台</p>
+          <p class="line">一只阿咪</p>
+          <p class="line">一只来福乖乖依赖</p>
+          <p class="line">醒来只剩空白</p>
+          <p class="line">现实没有半点期待</p>
+          <p class="line">快乐的时刻</p>
+          <p class="line">只存在梦境里</p>
+          <p class="line">渺小的我</p>
+          <p class="line">也只敢梦里痛快</p>
+          <p class="line">偌大的城市</p>
+          <p class="line">藏着渺小的我</p>
+          <p class="line">渺小的我</p>
+          <p class="line">一直做着盛大的梦</p>
+          <p class="line">梦醒之前</p>
+          <p class="line">都别叫醒我</p>
+          <p class="line">都别叫醒我</p>
+        </div>
+      </section>
+      <section class="song" id="metro-2" data-no="2">
+        <div class="song-head"><span class="no">02</span><h3><span class="cn">风铃</span></h3></div>
+        <div class="lyr">
+          <p class="line">梧桐投下斑驳的暗语</p>
+          <p class="line">誓言在风里打着颤摇摆不定</p>
+          <p class="line">你已辨认不清那天许下的字句</p>
+          <p class="line">我执意扎根于滚烫的泥土中心</p>
+          <p class="line">任烈日翻烤我鳞片的纹理</p>
+          <p class="line">蒸干最后水分去追赶夏季的尾音</p>
+          <p class="line">你笑说这何异于饮鸩止渴的瘾</p>
+          <p class="line">干涸的躯壳只需一丝风便散若尘烬</p>
+          <p class="line">腐化成泥或碎作微尘</p>
+          <p class="line">是你我终究逃不脱的既定剧本</p>
+          <p class="line">渺小渺小如永恒仰视大树的苔痕</p>
+          <p class="line">渺小如江心一叶失舵的舟身</p>
+          <p class="line">渺小渺小如永恒仰视大树的苔痕</p>
+          <p class="line">渺小如江心一叶失舵的舟身</p>
+          <p class="line">爱的暖流自下而上地涌奔</p>
+          <p class="line">我身不由己浮沉不问前程</p>
+          <p class="line">心是风铃随疾风夸张地躬身</p>
+          <p class="line">看似悦目风景却悬于断弦的惊魂</p>
+          <p class="line">把自己掷出许是更需要天分</p>
+          <p class="line">冒粉身碎骨之险去亲吻重力本身</p>
+          <p class="line">我是檐下风铃你是暴风一阵</p>
+          <p class="line">我是孤舟一芥你是洋流一痕</p>
+          <p class="line">渺小到无形渺小到失去称谓</p>
+          <p class="line">却妄想用一次清脆的碎换一瞬真切无畏</p>
+          <p class="line">饮鸩止渴是我独选的剧本</p>
+          <p class="line">片刻的灼烫胜过永恒的冰冷自困</p>
+          <p class="line">你笑我痴顽我笑我执念太深</p>
+          <p class="line">可盛夏遗留的余温只够我燃尽这一程</p>
+          <p class="line">风铃坠地碎成一声极轻的叹息</p>
+          <p class="line">洋流抹去航迹连同我姓名一笔勾去</p>
+          <p class="line">渺小渺小是最后的低语</p>
+          <p class="line">我曾于风中确凿地爱过你</p>
+        </div>
+      </section>
+      <section class="song" id="metro-3" data-no="3">
+        <div class="song-head"><span class="no">03</span><h3><span class="cn">雕花橙子</span></h3></div>
+        <div class="lyr">
+          <p class="line">黄浦街上人来人往</p>
+          <p class="line">不同的人消磨夜晚时光</p>
+          <p class="line">夜色慢慢接管白日的寻常</p>
+          <p class="line">挤在人潮里面慢慢游荡</p>
+          <p class="line">心事跟黑T恤跟着风摇晃</p>
+          <p class="line">每路过街口我都问你要往哪走</p>
+          <p class="line">你摇摇脑袋张开双手</p>
+          <p class="line">想去哪就去哪不必有理由</p>
+          <p class="line">于是我傻傻地笑着点头</p>
+          <p class="line">以为我们可以漫无目的地走很久</p>
+          <p class="line">后来随便走进一间街角酒吧</p>
+          <p class="line">那晚喝的什么我早就记不住啦</p>
+          <p class="line">只记得杯壁贴着雕花的橙子</p>
+          <p class="line">杯口沾着一圈整齐的砂糖</p>
+          <p class="line">酸涩的口感慢慢晕开一点甜啊</p>
+          <p class="line">那种味道普通又很特别</p>
+          <p class="line">只是当下的情绪盖过一切</p>
+          <p class="line">我本来就不太会喝酒啦</p>
+          <p class="line">半杯就上头脸颊慢慢变红</p>
+          <p class="line">说了好多废话也不知道</p>
+          <p class="line">你听懂了几种</p>
+          <p class="line">Ah Ah</p>
+          <p class="line">当初说好想走就走想停就停</p>
+          <p class="line">等我慢慢停下你已经没了身影</p>
+          <p class="line">雕花橙子还留在旧杯壁</p>
+          <p class="line">砂糖还没融化身边已经少了你</p>
+          <p class="line">我也说不清这段关系算不算认真</p>
+          <p class="line">到最后连情绪都变得沉闷</p>
+          <p class="line">你没有回头我也没有上前追问</p>
+          <p class="line">那晚的月光碎在街边</p>
+          <p class="line">没人收拾也没人心疼</p>
+          <p class="line">我忘记那一杯酒的气味</p>
+          <p class="line">只记得昏暗灯光安静坐着的你</p>
+          <p class="line">原来不是酒精模糊记忆</p>
+          <p class="line">是后来发生的一切</p>
+          <p class="line">太沉太压抑</p>
+          <p class="line">雕花橙子一圈砂糖</p>
+          <p class="line">酸涩先行甜只是假象</p>
+          <p class="line">我忘记了酒的味道</p>
+          <p class="line">只记得那晚微醺的模样</p>
+          <p class="line">还有好多没讲完的话</p>
+          <p class="line">全都留在没有后来的晚上</p>
+        </div>
+      </section>
+      <section class="song" id="metro-4" data-no="4">
+        <div class="song-head"><span class="no">04</span><h3><span class="cn">被动</span></h3></div>
+        <div class="lyr">
+          <p class="line">不算孤单</p>
+          <p class="line">只是太缓</p>
+          <p class="line">时间贴住皮囊</p>
+          <p class="line">慢慢褪色</p>
+          <p class="line">慢慢变淡</p>
+          <p class="line">我惯于沉默</p>
+          <p class="line">早已习惯</p>
+          <p class="line">影子代为生活</p>
+          <p class="line">我承载它的孤单</p>
+          <p class="line">独行在街上</p>
+          <p class="line">心事忽然唱完</p>
+          <p class="line">没人记住的旋律</p>
+          <p class="line">只在我耳畔循环</p>
+          <p class="line">心动是低烧</p>
+          <p class="line">温热得刚刚好</p>
+          <p class="line">不必刻意治好</p>
+          <p class="line">也不想逃跑</p>
+          <p class="line">你停在心底深处</p>
+          <p class="line">慢慢变小</p>
+          <p class="line">像一阵</p>
+          <p class="line">从未上岸的浪潮</p>
+          <p class="line">wo wo wo wo</p>
+          <p class="line">气息带着甜</p>
+          <p class="line">混着几分苦</p>
+          <p class="line">如同断层的记忆</p>
+          <p class="line">定格在半途</p>
+          <p class="line">我没有奔赴</p>
+          <p class="line">我不愿退出</p>
+          <p class="line">就静静站在原地</p>
+          <p class="line">看边界慢慢模糊</p>
+          <p class="line">谁先主动</p>
+          <p class="line">谁先落幕</p>
+          <p class="line">所以我保持静止</p>
+          <p class="line">任由情绪漂浮</p>
+          <p class="line">心动是低烧</p>
+          <p class="line">褪去又缠绕</p>
+          <p class="line">光阴来回游走</p>
+          <p class="line">却不留分毫</p>
+          <p class="line">你身在遥远远方</p>
+          <p class="line">偶尔闪耀</p>
+          <p class="line">像一份</p>
+          <p class="line">不敢认领的讯号</p>
+          <p class="line">wo wo</p>
+          <p class="line">不要叫醒我</p>
+          <p class="line">不要叫醒我</p>
+          <p class="line">就让思绪</p>
+          <p class="line">浅忘一半就好</p>
+          <p class="line">不要记得你</p>
+          <p class="line">不要记得你</p>
+          <p class="line">若是太清醒</p>
+          <p class="line">反而回不去</p>
+          <p class="line">我身在人海</p>
+          <p class="line">又置身局外</p>
+          <p class="line">你沉于雾里</p>
+          <p class="line">也藏于山海</p>
+        </div>
+      </section>
+      <section class="song" id="metro-5" data-no="5">
+        <div class="song-head"><span class="no">05</span><h3><span class="cn">悬而不述</span></h3></div>
+        <div class="lyr">
+          <p class="line">我们是昼伏夜出的生物</p>
+          <p class="line">只在霓虹深处才会共处</p>
+          <p class="line">你沉迷旧时代褪色纹路</p>
+          <p class="line">我偏爱未来里失真的雾</p>
+          <p class="line">争论像两场逆行的气流</p>
+          <p class="line">却共享同一场清晨日出</p>
+          <p class="line">兴趣分野能横跨两颗星球</p>
+          <p class="line">精妙绝伦缘分踏上这条路</p>
+          <p class="line">世界总急着定义归属</p>
+          <p class="line">我们却沉默着不去辩护</p>
+          <p class="line">像候鸟借宿城市高楼</p>
+          <p class="line">短暂停靠彼此国度</p>
+          <p class="line">世界总要求爱要相近</p>
+          <p class="line">我们却靠陌生维持亲密</p>
+          <p class="line">像两座隔海亮灯的岛屿</p>
+          <p class="line">远远辨认彼此呼吸</p>
+        </div>
+      </section>
+      <section class="song" id="metro-6" data-no="6">
+        <div class="song-head"><span class="no">06</span><h3><span class="cn">转机</span></h3></div>
+        <div class="lyr">
+          <p class="line">周一是秩序重建开篇</p>
+          <p class="line">庸常的生活重复上演</p>
+          <p class="line">心底里留存的一片净园</p>
+          <p class="line">是音乐是爱情还是执念</p>
+          <p class="line">周五是短暂欢愉铺垫</p>
+          <p class="line">烦恼和忧愁暂时搁浅</p>
+          <p class="line">走进片森林让思绪舒展</p>
+          <p class="line">探两家小店把晚风尝遍</p>
+          <p class="line">周日总伴着淡淡倦怨</p>
+          <p class="line">新一轮庸碌又将重演</p>
+          <p class="line">下一周会不会出现转变</p>
+          <p class="line">是热情是甜蜜还是眷恋</p>
+          <p class="line">下一周会不会出现转变</p>
+        </div>
+      </section>
+      <section class="song" id="metro-7" data-no="7">
+        <div class="song-head"><span class="no">07</span><h3><span class="cn">失语</span></h3></div>
+        <div class="lyr">
+          <p class="line">傍晚的灯一盏一盏熄灭</p>
+          <p class="line">像没写完的句子断在中间</p>
+          <p class="line">有人把风收进抽屉里面</p>
+          <p class="line">钥匙却被丢在很远很远</p>
+          <p class="line">旧报纸在街角翻了几页</p>
+          <p class="line">标题模糊得像是 一场旧雪</p>
+          <p class="line">那些名字还来不及出现</p>
+          <p class="line">就已经被轻轻改写</p>
+          <p class="line">天线指向无人回应的夜</p>
+          <p class="line">电波绕了几圈又折回原点</p>
+          <p class="line">你说的话停在发送之前</p>
+          <p class="line">像一封从未寄出的信</p>
+          <p class="line">有人在删去多余的边界</p>
+          <p class="line">也删去多余的昨天</p>
+          <p class="line">空白比墨水更显眼</p>
+          <p class="line">却很少有人看见</p>
+          <p class="line">如果声音可以留下阴影</p>
+          <p class="line">那墙上会不会一片人影</p>
+          <p class="line">我们追光走得太轻</p>
+          <p class="line">连回声都来不及证明</p>
+          <p class="line">如果故事都有它的期限</p>
+          <p class="line">是不是就停在这一页</p>
+          <p class="line">当最后一行慢慢褪色</p>
+          <p class="line">谁还记得它曾热烈</p>
+          <p class="line">玻璃橱窗反射着人群</p>
+          <p class="line">每张脸都安静得过分</p>
+          <p class="line">有人张口却没有声音</p>
+          <p class="line">像被按下暂停的清晨</p>
+          <p class="line">纸张一层一层被替换</p>
+          <p class="line">字迹变得越来越浅</p>
+          <p class="line">直到只剩下一种语言</p>
+          <p class="line">适合被重复很多遍</p>
+          <p class="line">也许哪一天风会记得</p>
+          <p class="line">那些没有说完的轮廓</p>
+          <p class="line">它们藏在缝隙之中</p>
+          <p class="line">等一场雨轻轻经过</p>
+          <p class="line">如果声音可以留下阴影</p>
+          <p class="line">那墙上会不会一片人影</p>
+          <p class="line">我们追光走得太轻</p>
+          <p class="line">连回声都来不及证明</p>
+          <p class="line">如果故事都有它的期限</p>
+          <p class="line">是不是就停在这一页</p>
+          <p class="line">当最后一行慢慢褪色</p>
+          <p class="line">谁还记得它曾热烈</p>
+          <p class="line">夜深时有人点起一盏灯</p>
+          <p class="line">写下不确定的认真</p>
+          <p class="line">纸页在风里微微作声</p>
+          <p class="line">像世界还没完全关门</p>
+        </div>
+      </section>
+      <section class="song" id="metro-8" data-no="8">
+        <div class="song-head"><span class="no">08</span><h3><span class="cn">围墙</span></h3></div>
+        <div class="lyr">
+          <p class="line">故作孱弱的模样</p>
+          <p class="line">才配被桎梏捆绑</p>
+          <p class="line">刻意收敛锋芒</p>
+          <p class="line">换无尽揣测与中伤</p>
+          <p class="line">新生的浪潮成长</p>
+          <p class="line">却失语在人海中央</p>
+          <p class="line">若不撕开围墙</p>
+          <p class="line">就永远失去回响</p>
+          <p class="line">别沉沦慌张</p>
+          <p class="line">不必独自逃亡</p>
+          <p class="line">荒芜世界之上</p>
+          <p class="line">我借夜色为你抵挡</p>
+          <p class="line">撕碎荒唐的秩序</p>
+          <p class="line">碾碎腐朽的规章</p>
+          <p class="line">挣脱世俗捆绑</p>
+          <p class="line">放肆呐喊你的立场</p>
+          <p class="line">抛开世俗的皮囊</p>
+          <p class="line">厌世本就是信仰</p>
+          <p class="line">小众的孤高倔强</p>
+          <p class="line">以自我姿态抢夺远方</p>
+          <p class="line">别溺于悲伤</p>
+          <p class="line">阴影陪你抵挡风浪</p>
+          <p class="line">别坠入迷茫</p>
+          <p class="line">黑暗之下我在你后方</p>
+          <p class="line">平庸被奉为寻常</p>
+          <p class="line">枷锁困住所有渴望</p>
+          <p class="line">拒绝温顺投降</p>
+          <p class="line">让嘶吼撞碎围墙</p>
+          <p class="line">我们生来孱弱</p>
+          <p class="line">沉溺灰暗与颓丧</p>
+          <p class="line">也正因偏执反常</p>
+          <p class="line">才自成荒芜荣光</p>
+          <p class="line">摒弃所有标准答案</p>
+          <p class="line">挣脱世俗的捆绑</p>
+          <p class="line">以孤绝的倔强</p>
+          <p class="line">赌一场专属的远方</p>
+          <p class="line">La La La La</p>
+          <p class="line">不必迎合世俗目光</p>
+          <p class="line">不必屈服于假象</p>
+          <p class="line">以破碎为盔甲</p>
+          <p class="line">以声音掀起风浪</p>
+        </div>
+      </section>
+      <section class="song" id="metro-9" data-no="9">
+        <div class="song-head"><span class="no">09</span><h3><span class="cn">锋芒</span></h3></div>
+        <div class="lyr">
+          <p class="line">想去一个懂得尊重的地方</p>
+          <p class="line">找一片能挺直背脊的土壤</p>
+          <p class="line">人生不该被世俗功利捆绑</p>
+          <p class="line">高敏感不算天生的硬伤</p>
+          <p class="line">是我的直觉 独有的锋芒</p>
+          <p class="line">旁人笑我思虑太重</p>
+          <p class="line">我不辩解 也绝不退让</p>
+          <p class="line">我偏爱这里 早晚都会回来</p>
+          <p class="line">哪怕一路辗转 只剩零星尘埃</p>
+          <p class="line">身处人人随波逐流的时代</p>
+          <p class="line">仍攥着理想主义 微弱的火柴</p>
+          <p class="line">世人笑我天真 幼稚 活该</p>
+          <p class="line">可我偏不肯妥协</p>
+          <p class="line">任由心底微光 慢慢盛开——</p>
+          <p class="line">Always a new day, always the best day</p>
+          <p class="line">细碎的快乐 喘息与自在</p>
+          <p class="line">远比浮华珍贵 比虚妄明白</p>
+          <p class="line">多年以后 就算依旧平凡 渺小存在</p>
+          <p class="line">只要灵魂不曾弯腰</p>
+          <p class="line">我就不算 彻底落败</p>
+          <p class="line">你笑我天真 像从未坠落的飞鸟</p>
+          <p class="line">可我见过太多人</p>
+          <p class="line">活成精致的标本</p>
+          <p class="line">我不愿被困在 世俗框架 任人对照</p>
+          <p class="line">宁愿笨拙 偶尔煎熬</p>
+          <p class="line">我不愿被困在世俗框架 任人对照</p>
+          <p class="line">也不要活得 麻木潦草</p>
+          <p class="line">去往懂得尊重的地方</p>
+          <p class="line">奔赴保有尊严的远方</p>
+          <p class="line">每一天 都算是最好的日常</p>
+          <p class="line">wo wo</p>
+          <p class="line">高敏感是我的刀刃</p>
+          <p class="line">理想主义是我的根</p>
+          <p class="line">我拒绝脱敏</p>
+          <p class="line">也拒绝 平庸沉沦</p>
+        </div>
+      </section>
+      <section class="song" id="metro-10" data-no="10">
+        <div class="song-head"><span class="no">10</span><h3><span class="cn">沉海</span></h3></div>
+        <div class="lyr">
+          <p class="line">满腔期待最终落得石沉大海</p>
+          <p class="line">堆叠的履历太厚</p>
+          <p class="line">反倒困住前行的常态</p>
+          <p class="line">这座世俗的围城</p>
+          <p class="line">究竟需要怎样的姿态</p>
+          <p class="line">既要学会低头迁就</p>
+          <p class="line">又要勉强自带光芒登台</p>
+          <p class="line">Come On Come On</p>
+          <p class="line">Let’s do it wrong</p>
+          <p class="line">Come On Come On</p>
+          <p class="line">Let’s do it wrong</p>
+          <p class="line">招聘大厅涌满汹涌人海</p>
+          <p class="line">耗尽力气奔赴台前</p>
+          <p class="line">才恍然发现简历忘了带</p>
+          <p class="line">就算随身携带又如何</p>
+          <p class="line">众生皆是碎石尘埃</p>
+          <p class="line">早早被标签划分筛选淘汰</p>
+          <p class="line">门缝漏出一声倦怠</p>
+          <p class="line">机械念着下一位进来</p>
+          <p class="line">侥幸挤进狭小格子间</p>
+          <p class="line">终日悬着不安</p>
+          <p class="line">害怕某天被轻易替代</p>
+          <p class="line">求职软件彻夜闪烁微光</p>
+          <p class="line">像诱饵不断摇摆</p>
+          <p class="line">冰冷算法修饰着纸面履历</p>
+          <p class="line">慢慢抹杀鲜活的人格</p>
+          <p class="line">我们不再是完整的人</p>
+          <p class="line">只是一串等待淘汰的数据残骸</p>
+          <p class="line">深夜归途卸下满身奔波与疲态</p>
+          <p class="line">盯着天花板错落裂痕</p>
+          <p class="line">情绪差点崩塌崩坏</p>
+          <p class="line">这世间的刻薄直白</p>
+          <p class="line">从不懂得稍加掩盖</p>
+          <p class="line">发泄过后冲尽疲惫</p>
+          <p class="line">借旋律拉回游离的魂魄</p>
+          <p class="line">天亮仍要弯折脊背</p>
+          <p class="line">把委屈藏进行囊</p>
+          <p class="line">装作从容无碍</p>
+          <p class="line">世人总劝人要努力要忍耐要热爱</p>
+          <p class="line">可热烈的偏爱</p>
+          <p class="line">早被房租生活层层讨债</p>
+          <p class="line">人人都鼓吹远方与未来</p>
+          <p class="line">可仅剩的期待</p>
+          <p class="line">只剩简历上留白的段落</p>
+          <p class="line">空洞无人理睬</p>
+          <p class="line">我们从来不算平庸破败</p>
+          <p class="line">只是这场现实牌局</p>
+          <p class="line">只懂洗牌从不看牌</p>
+          <p class="line">鲜活的人被拆解打磨</p>
+          <p class="line">沦为量产的建材</p>
+          <p class="line">一份热忱换一次石沉大海</p>
+          <p class="line">一纸履历写满无声的无奈</p>
+          <p class="line">宣泄落幕任由音乐翻涌澎湃</p>
+          <p class="line">天光亮起依旧奔赴人海</p>
+          <p class="line">继续做一粒</p>
+          <p class="line">无人问津</p>
+          <p class="line">沉入深海的尘埃</p>
+        </div>
+      </section>
+      <section class="song" id="metro-11" data-no="11">
+        <div class="song-head"><span class="no">11</span><h3><span class="cn">定义</span></h3></div>
+        <div class="lyr">
+          <p class="line">快乐不是别人定义的东西</p>
+          <p class="line">幸福不是资本堆砌的玩具</p>
+          <p class="line">人这一生短暂高楼不停砌</p>
+          <p class="line">当地震来袭大厦也作废墟</p>
+          <p class="line">向着阳生长不需太多叹息</p>
+          <p class="line">祸福循环没什么因果神迹</p>
+          <p class="line">自由不是他人赋予的权利</p>
+          <p class="line">孤独不是深夜失眠的病体</p>
+          <p class="line">时间不会因为眼泪而停息</p>
+          <p class="line">命运不过千万选择的合集</p>
+          <p class="line">真心不是嘴边重复的言语</p>
+          <p class="line">成长不是学会圆滑和逃避</p>
+          <p class="line">有人终其一生追逐着名利</p>
+          <p class="line">回头才发现灵魂早已贫瘠</p>
+          <p class="line">答案从来不是世界的给予</p>
+          <p class="line">人生终究需要自己去定义</p>
+        </div>
+      </section>
+      <section class="song" id="metro-12" data-no="12">
+        <div class="song-head"><span class="no">12</span><h3><span class="cn">奔流</span></h3></div>
+        <div class="lyr">
+          <p class="line">当我走进你的领域</p>
+          <p class="line">身体展开沉默防御</p>
+          <p class="line">若结局早已经写定</p>
+          <p class="line">人间何必循规蹈矩</p>
+          <p class="line">当我迷失我的方向</p>
+          <p class="line">仍把头颅抬向远方</p>
+          <p class="line">若生命终需要等待</p>
+          <p class="line">荒原也会重新生长</p>
+          <p class="line">当我成为奔流的河</p>
+          <p class="line">穿过废墟与旧旋涡</p>
+          <p class="line">若机会从未属于我</p>
+          <p class="line">成长何必献祭自我</p>
+          <p class="line">当我望见你的轮廓</p>
+          <p class="line">灵魂开始缓慢坍缩</p>
+          <p class="line">若所有期待被击落</p>
+          <p class="line">你会不会转身沉默</p>
+          <p class="line">（如果世界始终拒绝回应我</p>
+          <p class="line">那我便成为自己的星火</p>
+          <p class="line">如果命运从未偏爱过我</p>
+          <p class="line">那我偏要活成传说）</p>
+        </div>
+      </section>
+      <section class="song" id="metro-13" data-no="13">
+        <div class="song-head"><span class="no">13</span><h3><span class="cn">芝华塔尼欧</span></h3></div>
+        <p class="song-note">采样：电影《痛苦与荣耀》</p>
+        <div class="lyr">
+          <p class="line">日子像阵烈风 呼啸过境</p>
+          <p class="line">想过种种姿态 与它辞行</p>
+          <p class="line">怀念的痛苦 不舍的遗憾</p>
+          <p class="line">多少烙印 鲜活如新</p>
+          <p class="line">我不是一个 合格的旅人</p>
+          <p class="line">常常偏离轨道 从不用心</p>
+          <p class="line">熬夜到天光 睡过重要的时分</p>
+          <p class="line">介绍自己 说没什么远方的魂</p>
+          <p class="line">天真地狂妄 在自封的王国</p>
+          <p class="line">幻想月亮会自己 圆满所有角落</p>
+          <p class="line">错得一败涂地 才终于懂得</p>
+          <p class="line">种下的选择 与岁月蹉跎</p>
+          <p class="line">我和自己 终于和解</p>
+          <p class="line">那个稚嫩的少年 他已死去</p>
+          <p class="line">平静地吊唁 他飘荡的孤魂</p>
+          <p class="line">还咒骂着没有人 同气相闻</p>
+          <p class="line">从未如此坚定 哪怕面对</p>
+          <p class="line">这个晦暗无声的</p>
+          <p class="line">委曲求全的世界</p>
+          <p class="line">仍要走向 芝华塔尼欧</p>
+          <p class="line">把我从荒芜里 拾起的人</p>
+          <p class="line">种在你们灿烂的花园 让我重新生根</p>
+          <p class="line">寥寥相逢 却足够支撑</p>
+          <p class="line">从沉沉的夜 打捞出会发光的清晨</p>
+          <p class="line">我厌倦过那些 臃肿的黄昏</p>
+          <p class="line">敲过一扇 又一扇门</p>
+          <p class="line">平静地吊唁 他远去的孤魂</p>
+          <p class="line">还夸夸其谈 咒骂着命运不均</p>
+          <p class="line">可我从未如此坚定</p>
+          <p class="line">哪怕面对这个晦暗的 无声的</p>
+          <p class="line">虚伪的 委曲求全的世界</p>
+          <p class="line">我仍要走向 芝华塔尼欧</p>
+          <p class="line">进退之间 多了一份坦荡</p>
+          <p class="line">或许某天 疲于奔忙</p>
+          <p class="line">就躲到某个安静的地方</p>
+          <p class="line">平静地 度过余生的时光</p>
+          <p class="line">一片没有回忆的海</p>
+          <p class="line">但我不会 真的忘怀</p>
+        </div>
+      </section>
+      <section class="song" id="metro-14" data-no="14">
+        <div class="song-head"><span class="no">14</span><h3><span class="cn">都会クラブ</span></h3><span class="tag">器乐</span></div>
+        <p class="instr">器乐 · 无歌词</p>
+      </section>
+    </div>
+    <div class="album" data-album="guaitan"
+      style="--acc:#5A4A6E;--acc-soft:rgba(90,74,110,.34)">
+      <section class="song" id="guaitan-1" data-no="1">
+        <div class="song-head"><span class="no">01</span><h3><span class="en">The World Is My Playdoll</span></h3></div>
+        <div class="lyr">
+          <div class="pair"><p class="en">Neon angels melting in the rain</p><p class="cn">霓虹天使在雨中融化</p></div>
+          <div class="pair"><p class="en">Plastic moons are calling out my name</p><p class="cn">塑料月亮呼唤着我的名字</p></div>
+          <div class="pair"><p class="en">Silver oceans folded in my hand</p><p class="cn">银色海洋折叠在我手中</p></div>
+          <div class="pair"><p class="en">Paper cities drifting into sand</p><p class="cn">纸片城市流散成沙</p></div>
+          <div class="pair"><p class="en">I spin the sky like a carousel</p><p class="cn">我如旋转木马般转动天空</p></div>
+          <div class="pair"><p class="en">Nobody knows if I’m here as well</p><p class="cn">无人知晓我是否也在此地</p></div>
+          <div class="pair"><p class="en">All the clocks dissolve into the blue</p><p class="cn">所有时钟溶解于蓝色之中</p></div>
+          <div class="pair"><p class="en">Every road is leading back to you</p><p class="cn">每一条路都引向你的归途</p></div>
+          <div class="pair"><p class="en">The world is my playdoll tonight</p><p class="cn">今夜世界是我的玩偶</p></div>
+          <div class="pair"><p class="en">Turning slowly under satellite light</p><p class="cn">在卫星灯光下缓缓旋转</p></div>
+          <div class="pair"><p class="en">The world is my playdoll tonight</p><p class="cn">今夜世界是我的玩偶</p></div>
+          <div class="pair"><p class="en">Watch me disappear inside the light</p><p class="cn">看我消失于光芒之间</p></div>
+        </div>
+      </section>
+      <section class="song" id="guaitan-2" data-no="2">
+        <div class="song-head"><span class="no">02</span><h3><span class="en">Wilderness</span></h3></div>
+        <div class="lyr">
+          <p class="line">The game starts</p>
+          <p class="line">游戏在这颗你不了解的星球上开始</p>
+          <p class="line">on the planet you don’t know</p>
+          <p class="line">也许我们是游戏玩家</p>
+          <p class="line">maybe we are the game players</p>
+          <p class="line">又也许我们不是</p>
+          <p class="line">or maybe we are not</p>
+          <p class="line">我不需要一片草原</p>
+          <p class="line">i don't need a grassland</p>
+          <p class="line">有一片荒野</p>
+          <p class="line">there is a wilderness</p>
+          <p class="line">正奔跑在我的胸膛里</p>
+          <p class="line">running in my chest</p>
+          <p class="line">信号微弱</p>
+          <p class="line">signal weak</p>
+          <p class="line">信号微弱</p>
+          <p class="line">signal weak</p>
+          <p class="line">信号微弱</p>
+          <p class="line">signal weak</p>
+          <p class="line">每个人都在广播</p>
+          <p class="line">everyone is broadcasting</p>
+          <p class="line">没有人人在倾听</p>
+          <p class="line">nobody is listening</p>
+          <p class="line">正在加载...</p>
+          <p class="line">loading...</p>
+          <p class="line">正在加载...请等待</p>
+          <p class="line">loading...wait</p>
+          <p class="line">正在加载...请稍等片刻</p>
+          <p class="line">loading…wait a moment</p>
+          <p class="line">时间忘记了更新</p>
+          <p class="line">time forgot to update</p>
+          <p class="line">风抹去了自己的名字</p>
+          <p class="line">the wind deleted its name</p>
+          <p class="line">风抹去了自己的名字</p>
+          <p class="line">the wind deleted its name</p>
+          <p class="line">风抹去了自己的名字</p>
+          <p class="line">the wind deleted its name</p>
+          <p class="line">风抹去了自己的名字</p>
+          <p class="line">the wind deleted its name</p>
+          <p class="line">我不需要一片草原</p>
+          <p class="line">i don't need a grassland</p>
+          <p class="line">有一片荒野</p>
+          <p class="line">there is a wilderness</p>
+          <p class="line">你猜如何</p>
+          <p class="line">you guess what</p>
+          <p class="line">在我体内</p>
+          <p class="line">inside me</p>
+          <p class="line">在我体内</p>
+          <p class="line">inside me</p>
+          <p class="line">在我的内心深处</p>
+          <p class="line">inside of me</p>
+        </div>
+      </section>
+      <section class="song" id="guaitan-3" data-no="3">
+        <div class="song-head"><span class="no">03</span><h3><span class="cn">一汪水</span></h3></div>
+        <div class="lyr">
+          <p class="line">总是像那一汪</p>
+          <p class="line">一汪水</p>
+          <p class="line">托起我的身体</p>
+          <p class="line">轻轻推</p>
+          <p class="line">没有芥蒂</p>
+          <p class="line">没有解不开的结</p>
+          <p class="line">拉紧我的锁扣</p>
+          <p class="line">慢慢爱</p>
+          <p class="line">总是像那一片</p>
+          <p class="line">一片海</p>
+          <p class="line">漫长的岸线</p>
+          <p class="line">海鸥飞来</p>
+          <p class="line">退潮以后</p>
+          <p class="line">我再没有醒来</p>
+          <p class="line">湿漉漉的身体</p>
+          <p class="line">被夜色掩埋</p>
+          <p class="line">月色和你的爱</p>
+          <p class="line">悄悄升起</p>
+          <p class="line">托起我的身体</p>
+          <p class="line">直到梦里</p>
+          <p class="line">黎明时</p>
+          <p class="line">你剥落的潮汐</p>
+          <p class="line">干干净净</p>
+          <p class="line">不带走一片记忆</p>
+          <p class="line">我想我爱上了一汪水</p>
+          <p class="line">爱他的澄澈透明</p>
+          <p class="line">爱他的细碎入微</p>
+          <p class="line">爱他静静流淌</p>
+          <p class="line">不惊扰我的安睡</p>
+          <p class="line">爱他</p>
+          <p class="line">又恨他</p>
+          <p class="line">这透明安静的水</p>
+        </div>
+      </section>
+      <section class="song" id="guaitan-4" data-no="4">
+        <div class="song-head"><span class="no">04</span><h3><span class="cn">出口</span></h3></div>
+        <div class="lyr">
+          <p class="line">我从沉默的墙里醒来</p>
+          <p class="line">把命运写好的名字撕开</p>
+          <p class="line">他们把尺子刻进我骨骼</p>
+          <p class="line">我要逆着潮汐走向深海</p>
+          <p class="line">就算双手还撑着旧时代</p>
+          <p class="line">谁规定人只能这样长大</p>
+          <p class="line">谁把出口藏进我的血脉</p>
+          <p class="line">若天命是铁我便撞碎它</p>
+          <p class="line">我要逆着潮汐走向深海</p>
+          <p class="line">就算双手还绑着旧时代</p>
+          <p class="line">我终于听见骨骼在回响</p>
+          <p class="line">像一扇门从身体里打开</p>
+          <p class="line">我要逆着潮汐走向深海</p>
+          <p class="line">若天命是铁我便撞碎它</p>
+          <p class="line">我要逆着潮汐走向深海</p>
+          <p class="line">就算双手还绑着旧时代</p>
+          <p class="line">我终于听见骨骼在回响</p>
+          <p class="line">像一扇门从身体里打开</p>
+          <p class="line">我从沉默的墙里醒来</p>
+          <p class="line">把命运写好的名字撕开</p>
+          <p class="line">他们把尺子刻进我骨骼</p>
+          <p class="line">我要逆着潮汐走向深海</p>
+        </div>
+      </section>
+      <section class="song" id="guaitan-5" data-no="5">
+        <div class="song-head"><span class="no">05</span><h3><span class="cn">蛹（electro）</span></h3><span class="tag">器乐</span></div>
+        <p class="song-note">此首为器乐</p>
+        <p class="instr">器乐 · 无歌词</p>
+      </section>
+      <section class="song" id="guaitan-6" data-no="6">
+        <div class="song-head"><span class="no">06</span><h3><span class="cn">蹩脚的修饰</span></h3></div>
+        <div class="lyr">
+          <p class="line">那天我穿了 sycamore去见你</p>
+          <p class="line">却因愚蠢真实错失你的注意</p>
+          <p class="line">低着头或躲避目光或叹息</p>
+          <p class="line">滚烫的句子也显得太刻意</p>
+          <p class="line">谈起远方谈起餐桌和履历</p>
+          <p class="line">谈起谁又住进更高的天地</p>
+          <p class="line">举起名片举起光鲜的战绩</p>
+          <p class="line">却把真心折成方便的货币</p>
+          <p class="line">哪一种身份和你最相宜</p>
+          <p class="line">是天生的后天的编造的传奇</p>
+          <p class="line">哪一种身份挑起来最高贵</p>
+          <p class="line">让你在夜里永不独自安睡</p>
+          <p class="line">流水的故事换不停的样式</p>
+          <p class="line">欲望给人最普适的位置</p>
+          <p class="line">那天我为你穿上最贵的香水</p>
+          <p class="line">是我最可笑最奇妙的固执</p>
+        </div>
+      </section>
+      <section class="song" id="guaitan-7" data-no="7">
+        <div class="song-head"><span class="no">07</span><h3><span class="cn">光</span></h3></div>
+        <div class="lyr">
+          <p class="line">窥见过光</p>
+          <p class="line">灵动曼妙的模样</p>
+          <p class="line">你口中罪恶的月亮</p>
+          <p class="line">始终照着远方</p>
+          <p class="line">黯然神伤</p>
+          <p class="line">不是因为黑夜漫长</p>
+          <p class="line">只是世界把向往</p>
+          <p class="line">说成荒唐</p>
+          <p class="line">不过一种沮丧</p>
+          <p class="line">从出生开始</p>
+          <p class="line">拼命逃离</p>
+          <p class="line">这巨大的织网</p>
+          <p class="line">如果我留不住</p>
+          <p class="line">最后一点想往</p>
+          <p class="line">请送我进病院</p>
+          <p class="line">慢慢疗伤</p>
+          <p class="line">灵魂真诚</p>
+          <p class="line">精神才能生长</p>
+          <p class="line">忠于自己</p>
+          <p class="line">原来如此寻常</p>
+          <p class="line">窥见过光</p>
+          <p class="line">便再无法遗忘</p>
+          <p class="line">它一直</p>
+          <p class="line">一直在心里荡漾</p>
+          <p class="line">人世间</p>
+          <p class="line">我高声唱</p>
+          <p class="line">风光赫赫的沙场</p>
+          <p class="line">那一代叫我投降</p>
+          <p class="line">他们说</p>
+          <p class="line">远方不过幻象</p>
+          <p class="line">可我知道</p>
+          <p class="line">月亮轻抚的地方</p>
+          <p class="line">总有人</p>
+          <p class="line">仍愿意相信善良</p>
+          <p class="line">如果终究无法</p>
+          <p class="line">留在那片土壤</p>
+          <p class="line">那就让我</p>
+          <p class="line">向着光</p>
+          <p class="line">一直流浪吧</p>
+        </div>
+      </section>
+      <section class="song" id="guaitan-8" data-no="8">
+        <div class="song-head"><span class="no">08</span><h3><span class="en">Bubble Joy</span></h3></div>
+        <div class="lyr">
+          <div class="pair"><p class="en">Yes？Uh-huh？Why me?</p><p class="cn">是的？额-哼？为什么是我？</p></div>
+          <div class="pair"><p class="en">ありがとうございました！</p><p class="cn">非常感谢！</p></div>
+          <div class="pair"><p class="en">Strobe lights cutting through the ambient cream</p><p class="cn">频闪灯光穿透柔和绵密的氛围</p></div>
+          <div class="pair"><p class="en">Are we awake or trapped in a dream?</p><p class="cn">我们是清醒着，还是困在了梦里？</p></div>
+          <div class="pair"><p class="en">Your voice is a waveform, stretching out wide</p><p class="cn">你的声音是一道波形，无限延展拉宽</p></div>
+          <div class="pair"><p class="en">A bitcrushed secret hidden inside</p><p class="cn">内部藏着被比特破碎处理过的秘密</p></div>
+          <div class="pair"><p class="en">We built a castle out of synthesizer chords</p><p class="cn">我们用合成器和弦筑起一座城堡</p></div>
+          <div class="pair"><p class="en">Now the sequencer’s crashing, skipping the words</p><p class="cn">如今序列器濒临崩溃，不断跳过词句</p></div>
+          <div class="pair"><p class="en">The breakbeat is heavy, it tears at the seams</p><p class="cn">碎拍沉重强烈，扯开了城堡的缝隙</p></div>
+          <div class="pair"><p class="en">Melting the candy-sweet dreams</p><p class="cn">融化了如糖果般甜美的梦境</p></div>
+          <div class="pair"><p class="en">Bubble joy, bubble joy, rising up high</p><p class="cn">泡沫般纯粹的快乐，不断向上涌动</p></div>
+          <div class="pair"><p class="en">Bubble joy, bubble joy, rising up high</p><p class="cn">泡沫般纯粹的快乐，不断向上涌动</p></div>
+          <div class="pair"><p class="en">Bubble joy, bubble joy, rising up high</p><p class="cn">泡沫般纯粹的快乐，不断向上涌动</p></div>
+          <div class="pair"><p class="en">Bubble joy, bubble joy, rising up high</p><p class="cn">泡沫般纯粹的快乐，不断向上涌动</p></div>
+          <div class="pair"><p class="en">Bubble joy, bubble joy, rising up high</p><p class="cn">泡沫般纯粹的快乐，不断向上涌动</p></div>
+          <div class="pair"><p class="en">Bubble joy, bubble joy, rising up high</p><p class="cn">泡沫般纯粹的快乐，不断向上涌动</p></div>
+          <div class="pair"><p class="en">Bubble joy, bubble joy, rising up high</p><p class="cn">泡沫般纯粹的快乐，不断向上涌动</p></div>
+          <div class="pair"><p class="en">Bubble joy, bubble joy, rising up high</p><p class="cn">泡沫般纯粹的快乐，不断向上涌动</p></div>
+          <div class="pair"><p class="en">Bubble joy, watch it fade away Into the binary gray</p><p class="cn">泡沫般纯粹的快乐，眼睁睁看它消散在二进制的灰暗之中</p></div>
+          <div class="pair"><p class="en">Hold it in your hands before it dissolves</p><p class="cn">在它溶解消失前，把它紧紧握在手中</p></div>
+          <div class="pair"><p class="en">A beautiful equation that never resolves</p><p class="cn">一个永远无法求解的绝美等式</p></div>
+          <div class="pair"><p class="en">Just enjoy the moment of the little bubble joy</p><p class="cn">只需尽情享受这片刻微小的泡沫快乐</p></div>
+          <div class="pair"><p class="en">0 and 1, joy and pain</p><p class="cn">0 与 1，快乐与痛苦</p></div>
+          <div class="pair"><p class="en">Washed away in the digital rain</p><p class="cn">全被冲刷殆尽，在这场数字降下的雨中</p></div>
+        </div>
+      </section>
+      <section class="song" id="guaitan-9" data-no="9">
+        <div class="song-head"><span class="no">09</span><h3><span class="cn">夏日之后</span></h3></div>
+        <div class="lyr">
+          <p class="line">蝉声盖过摇晃的晚风</p>
+          <p class="line">像一潭安静夏日积水</p>
+          <p class="line">干净轻盈，没了重量</p>
+          <p class="line">漂在余热，回不去旧池塘</p>
+          <p class="line">曾把盛夏天真握在手</p>
+          <p class="line">以为能挡住所有尖锐</p>
+          <p class="line">直到落日融化热浪</p>
+          <p class="line">才懂光亮都带着阴影</p>
+          <p class="line">总想逃开闷热的一切</p>
+          <p class="line">空手接住穿身的晚风</p>
+          <p class="line">几番阵痛反复掠过</p>
+          <p class="line">换来几次全新的自我</p>
+          <p class="line">人人都说前路很辽阔</p>
+          <p class="line">没人提这漫长的季节</p>
+          <p class="line">懂的道理一天天变多</p>
+          <p class="line">夏日的伤，还没能愈合</p>
+          <p class="line">旁人抱着热烈的幻想</p>
+          <p class="line">把温柔曲解成软弱</p>
+          <p class="line">老墙浸着褪色黄昏</p>
+          <p class="line">心底那束光，从未弯折</p>
+          <p class="line">旁人抱着热烈的幻想</p>
+          <p class="line">把温柔曲解成软弱</p>
+          <p class="line">老墙浸着褪色黄昏</p>
+          <p class="line">心底那束光，从未弯折</p>
+          <p class="line">（你说夏天会回来）</p>
+          <p class="line">（你说夏天会回来）</p>
+          <p class="line">（你说夏天会回来）</p>
+          <p class="line">（你说夏天会回来）</p>
+          <p class="line">（你说夏天还会回来吗？）</p>
+          <p class="line">（我不知道那个夏天已经过了多久）</p>
+          <p class="line">（但是我相信，人生还会有这样的夏天）</p>
+        </div>
+      </section>
+      <section class="song" id="guaitan-10" data-no="10">
+        <div class="song-head"><span class="no">10</span><h3><span class="cn">冬季</span></h3></div>
+        <div class="lyr">
+          <p class="line">过完这个冬天， 还有好多个冬天。</p>
+          <p class="line">这个城市的冬天，太长了。 长到……好像能吃掉整整几代人的青春。</p>
+          <p class="line">人们在水泥缝隙里走走停停， 忙着生存，忙着把自己冻成雕像。 你问我：“你也是个看客吧？”</p>
+          <p class="line">我只能笑一笑。 在那个漫长到看不见尽头的寒冬里， 我不是不肯留下来， 我只是……选择了逃跑。</p>
+          <p class="line">可是，我也曾在这里扎过根啊。 像野草一样，把根须死死地扎进砖缝里， 顽强地、卑微地依附着那片土壤。</p>
+          <p class="line">你以为我可以。 但我不过是一只被风雪撕扯着的翅膀的候鸟， 最终跌跌撞撞，逃到了这个温暖潮湿的巢穴。 这里很暖和…… 可巢穴里，没有我的亲人，没有我的来处。</p>
+          <p class="line">你问我怎么哭了？ 哈哈……其实， 我也想在那个有火光的地方过冬啊。 我也想留在那里的啊……</p>
+          <p class="line">有时候我觉得，这真的不是我的错吧？ 这一切的溃败， 只是因为那里的冬天……实在太冷了。 冷到我好怕，好怕自己根本熬不过第二个严冬。</p>
+          <p class="line">你说，我是不是在孤独地活着？ 其实，这一路上，不一直都是这样吗？ 冬天，春天，夏天，秋天…… 季节轮转，而我永远在迁徙。</p>
+          <p class="line">过完这个冬天…… 我就要迎来的，是无休止的夏天了。</p>
+        </div>
+      </section>
+      <section class="song" id="guaitan-11" data-no="11">
+        <div class="song-head"><span class="no">11</span><h3><span class="cn">蛹</span></h3></div>
+        <div class="lyr">
+          <p class="line">好想 好想 我们拧成一片</p>
+          <p class="line">庇护 这方 大大的巢</p>
+          <p class="line">身躯 稚嫩 探不出去</p>
+          <p class="line">幸福 私有 芬芳的草</p>
+          <p class="line">好想 好想 我们绽放一次</p>
+          <p class="line">见到 那扇 长长的窗</p>
+          <p class="line">晨光 和煦 照射进来</p>
+          <p class="line">翅膀 颤动 稚气高昂</p>
+          <p class="line">好想 好想 我们抱成一团</p>
+          <p class="line">守护 我们 小小心脏</p>
+          <p class="line">外面 锋利 刺不进来</p>
+          <p class="line">温暖 流成 大大的床</p>
+          <p class="line">好想 好想 我们</p>
+          <p class="line">好想 好想 我们</p>
+          <p class="line">好想 好想 我们</p>
+          <p class="line">光亮的 地方</p>
+          <p class="line">飞吧 飞吧 我们</p>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<footer>
+  <span class="cr">© <span id="yr">2026</span> Akito Lau 版权所有</span>
+  <span class="en">ALL RIGHTS RESERVED</span>
+  <span class="en">未经许可，请勿转载</span>
+</footer>
+
+<script>
+(function(){
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  /* 专辑切换 */
+  var tabs = [].slice.call(document.querySelectorAll('#tabs button'));
+  function activate(key){
+    tabs.forEach(function(b){ b.classList.toggle('on', b.dataset.album === key); });
+    document.querySelectorAll('#main .album').forEach(function(el){
+      el.classList.toggle('on', el.dataset.album === key); });
+    document.querySelectorAll('#side .album-side').forEach(function(el){
+      el.hidden = (el.dataset.album !== key); });
+    window.scrollTo({top:0, behavior:'instant' in window ? 'instant' : 'auto'});
+    recon(); progress();
+  }
+  tabs.forEach(function(b){ b.addEventListener('click', function(){ activate(b.dataset.album); }); });
+
+  /* 阅读进度 */
+  var prog = document.getElementById('prog'), raf = false;
+  function progress(){
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    prog.style.width = (h > 0 ? Math.min(100, (window.scrollY / h) * 100) : 0) + '%';
+    raf = false;
+  }
+  window.addEventListener('scroll', function(){ if(!raf){ raf = true; requestAnimationFrame(progress); } }, {passive:true});
+  window.addEventListener('resize', progress);
+
+  /* 目录高亮（只观察当前专辑的曲目） */
+  var io = null, vis = {};
+  function recon(){
+    if(io) io.disconnect();
+    vis = {};
+    var active = document.querySelector('#main .album.on');
+    if(!active || !('IntersectionObserver' in window)) return;
+    var links = [].slice.call(document.querySelectorAll('#side .album-side:not([hidden]) a'));
+    var map = {};
+    links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+    io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ vis[e.target.id] = e.isIntersecting ? e.intersectionRatio : 0; });
+      var best = null, bv = 0;
+      for(var k in vis){ if(vis[k] > bv){ bv = vis[k]; best = k; } }
+      if(best){ links.forEach(function(a){ a.classList.remove('on'); });
+        if(map[best]) map[best].classList.add('on'); }
+    }, {rootMargin:'-10% 0px -60% 0px', threshold:[0,.12,.35,.6,1]});
+    [].slice.call(active.querySelectorAll('section.song')).forEach(function(s){ io.observe(s); });
+  }
+  recon(); progress();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,6828 @@
+{
+ "albums": [
+  {
+   "key": "seasons",
+   "en": "Seasons of Music",
+   "cn": "",
+   "accent": "#2A4A6A",
+   "accent_soft": "rgba(42,74,106,.30)",
+   "note": "1-12为有歌词曲目，后三首为无歌词曲目",
+   "songs": [
+    {
+     "no": 1,
+     "title": "Waves Ambient",
+     "en": "Waves Ambient",
+     "cn": "",
+     "note": "",
+     "lines": [
+      "海风吹拂",
+      "海浪翻涌",
+      "海螺出现",
+      "在你眼中",
+      "海风吹拂",
+      "海浪翻涌",
+      "海螺出现",
+      "在我眼中",
+      "海风它吹拂",
+      "海浪它翻涌",
+      "海螺它出现",
+      "在我的眼中"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "海风吹拂"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "海浪翻涌"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "海螺出现"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在你眼中"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "海风吹拂"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "海浪翻涌"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "海螺出现"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在我眼中"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "海风它吹拂"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "海浪它翻涌"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "海螺它出现"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在我的眼中"
+      }
+     ],
+     "nlines": 12,
+     "instrumental": false
+    },
+    {
+     "no": 2,
+     "title": "Coffee Times",
+     "en": "Coffee Times",
+     "cn": "",
+     "note": "",
+     "lines": [
+      "The sun is low upon the street",
+      "街头斜阳低垂",
+      "We’re walking slow with tired feet",
+      "我们拖着疲惫的脚步慢慢走",
+      "The wooden door, the yellow light",
+      "木门轻掩，暖黄灯光",
+      "Everything is feeling right",
+      "一切都恰到好处",
+      "Vinyl plays a song so old",
+      "黑胶唱着一首古老的歌",
+      "Outside the wind is getting cold",
+      "窗外的风渐渐转凉",
+      "Your favorite chair, the window pane",
+      "你最爱的那张椅子，临着窗边",
+      "We’re hiding from the little rain",
+      "我们躲着这细碎的小雨",
+      "Cappuccino in your hand",
+      "你手里捧着一杯卡布奇诺",
+      "The best time in all the land",
+      "这是世间最美的时光",
+      "We got no place to go",
+      "我们无处可去",
+      "We just take it slow",
+      "只想慢慢地过",
+      "Oh, coffee times with you",
+      "啊，与你共度的咖啡时光",
+      "Nothing else we need to do",
+      "不必再做任何事",
+      "Young and wild, lost and free",
+      "年轻恣意，迷失却自由",
+      "Just you and the coffee and me",
+      "只有你、咖啡，还有我",
+      "Looking at the sugar in the bowl",
+      "看着碗里的方糖",
+      "Spending time is good for the soul",
+      "消磨时光也能滋养灵魂",
+      "Let the world just spin around",
+      "让世界自在运转",
+      "We are happy with the sound",
+      "我们沉浸于此刻的声音",
+      "Oh, coffee times with you",
+      "啊，与你共度的咖啡时光",
+      "Nothing else we need to do",
+      "不必再做任何事",
+      "Young and wild, lost and free",
+      "年轻恣意，迷失却自由",
+      "Just you and the coffee and me",
+      "只有你、咖啡，还有我",
+      "Oh, coffee times with you",
+      "啊，与你共度的咖啡时光",
+      "I don't care anything they do",
+      "他人如何，我都不在意",
+      "Young and bold, be this forever",
+      "年少无畏，愿此刻长存",
+      "nothing compares this ever",
+      "没有什么能与之相比",
+      "Ah",
+      "啊",
+      "People running, people fast",
+      "人群匆匆，步履飞快",
+      "We’ll make this moment last",
+      "而我们让此刻停留",
+      "In this little magic place",
+      "在这小小的魔法之地",
+      "I love to see your smiling face",
+      "我喜欢看你微笑的样子",
+      "Oh, coffee times with you",
+      "啊，与你共度的咖啡时光",
+      "Nothing else we need to do",
+      "不必再做任何事",
+      "Young and wild, lost and free",
+      "年轻恣意，迷失却自由",
+      "Just you and the coffee and me",
+      "只有你、咖啡，还有我",
+      "Oh, coffee times with you",
+      "啊，与你共度的咖啡时光",
+      "I don't care anything they do",
+      "他人如何，我都不在意",
+      "Young and bold, be this forever",
+      "年少无畏，愿此刻长存",
+      "nothing compares this ever",
+      "没有什么能与之相比",
+      "One more cup",
+      "再来一杯",
+      "One more cup",
+      "再来一杯",
+      "One more cup",
+      "再来一杯",
+      "Coffee times...",
+      "咖啡时光……"
+     ],
+     "bilingual": true,
+     "blocks": [
+      {
+       "t": "pair",
+       "en": "The sun is low upon the street",
+       "cn": "街头斜阳低垂"
+      },
+      {
+       "t": "pair",
+       "en": "We’re walking slow with tired feet",
+       "cn": "我们拖着疲惫的脚步慢慢走"
+      },
+      {
+       "t": "pair",
+       "en": "The wooden door, the yellow light",
+       "cn": "木门轻掩，暖黄灯光"
+      },
+      {
+       "t": "pair",
+       "en": "Everything is feeling right",
+       "cn": "一切都恰到好处"
+      },
+      {
+       "t": "pair",
+       "en": "Vinyl plays a song so old",
+       "cn": "黑胶唱着一首古老的歌"
+      },
+      {
+       "t": "pair",
+       "en": "Outside the wind is getting cold",
+       "cn": "窗外的风渐渐转凉"
+      },
+      {
+       "t": "pair",
+       "en": "Your favorite chair, the window pane",
+       "cn": "你最爱的那张椅子，临着窗边"
+      },
+      {
+       "t": "pair",
+       "en": "We’re hiding from the little rain",
+       "cn": "我们躲着这细碎的小雨"
+      },
+      {
+       "t": "pair",
+       "en": "Cappuccino in your hand",
+       "cn": "你手里捧着一杯卡布奇诺"
+      },
+      {
+       "t": "pair",
+       "en": "The best time in all the land",
+       "cn": "这是世间最美的时光"
+      },
+      {
+       "t": "pair",
+       "en": "We got no place to go",
+       "cn": "我们无处可去"
+      },
+      {
+       "t": "pair",
+       "en": "We just take it slow",
+       "cn": "只想慢慢地过"
+      },
+      {
+       "t": "pair",
+       "en": "Oh, coffee times with you",
+       "cn": "啊，与你共度的咖啡时光"
+      },
+      {
+       "t": "pair",
+       "en": "Nothing else we need to do",
+       "cn": "不必再做任何事"
+      },
+      {
+       "t": "pair",
+       "en": "Young and wild, lost and free",
+       "cn": "年轻恣意，迷失却自由"
+      },
+      {
+       "t": "pair",
+       "en": "Just you and the coffee and me",
+       "cn": "只有你、咖啡，还有我"
+      },
+      {
+       "t": "pair",
+       "en": "Looking at the sugar in the bowl",
+       "cn": "看着碗里的方糖"
+      },
+      {
+       "t": "pair",
+       "en": "Spending time is good for the soul",
+       "cn": "消磨时光也能滋养灵魂"
+      },
+      {
+       "t": "pair",
+       "en": "Let the world just spin around",
+       "cn": "让世界自在运转"
+      },
+      {
+       "t": "pair",
+       "en": "We are happy with the sound",
+       "cn": "我们沉浸于此刻的声音"
+      },
+      {
+       "t": "pair",
+       "en": "Oh, coffee times with you",
+       "cn": "啊，与你共度的咖啡时光"
+      },
+      {
+       "t": "pair",
+       "en": "Nothing else we need to do",
+       "cn": "不必再做任何事"
+      },
+      {
+       "t": "pair",
+       "en": "Young and wild, lost and free",
+       "cn": "年轻恣意，迷失却自由"
+      },
+      {
+       "t": "pair",
+       "en": "Just you and the coffee and me",
+       "cn": "只有你、咖啡，还有我"
+      },
+      {
+       "t": "pair",
+       "en": "Oh, coffee times with you",
+       "cn": "啊，与你共度的咖啡时光"
+      },
+      {
+       "t": "pair",
+       "en": "I don't care anything they do",
+       "cn": "他人如何，我都不在意"
+      },
+      {
+       "t": "pair",
+       "en": "Young and bold, be this forever",
+       "cn": "年少无畏，愿此刻长存"
+      },
+      {
+       "t": "pair",
+       "en": "nothing compares this ever",
+       "cn": "没有什么能与之相比"
+      },
+      {
+       "t": "pair",
+       "en": "Ah",
+       "cn": "啊"
+      },
+      {
+       "t": "pair",
+       "en": "People running, people fast",
+       "cn": "人群匆匆，步履飞快"
+      },
+      {
+       "t": "pair",
+       "en": "We’ll make this moment last",
+       "cn": "而我们让此刻停留"
+      },
+      {
+       "t": "pair",
+       "en": "In this little magic place",
+       "cn": "在这小小的魔法之地"
+      },
+      {
+       "t": "pair",
+       "en": "I love to see your smiling face",
+       "cn": "我喜欢看你微笑的样子"
+      },
+      {
+       "t": "pair",
+       "en": "Oh, coffee times with you",
+       "cn": "啊，与你共度的咖啡时光"
+      },
+      {
+       "t": "pair",
+       "en": "Nothing else we need to do",
+       "cn": "不必再做任何事"
+      },
+      {
+       "t": "pair",
+       "en": "Young and wild, lost and free",
+       "cn": "年轻恣意，迷失却自由"
+      },
+      {
+       "t": "pair",
+       "en": "Just you and the coffee and me",
+       "cn": "只有你、咖啡，还有我"
+      },
+      {
+       "t": "pair",
+       "en": "Oh, coffee times with you",
+       "cn": "啊，与你共度的咖啡时光"
+      },
+      {
+       "t": "pair",
+       "en": "I don't care anything they do",
+       "cn": "他人如何，我都不在意"
+      },
+      {
+       "t": "pair",
+       "en": "Young and bold, be this forever",
+       "cn": "年少无畏，愿此刻长存"
+      },
+      {
+       "t": "pair",
+       "en": "nothing compares this ever",
+       "cn": "没有什么能与之相比"
+      },
+      {
+       "t": "pair",
+       "en": "One more cup",
+       "cn": "再来一杯"
+      },
+      {
+       "t": "pair",
+       "en": "One more cup",
+       "cn": "再来一杯"
+      },
+      {
+       "t": "pair",
+       "en": "One more cup",
+       "cn": "再来一杯"
+      },
+      {
+       "t": "pair",
+       "en": "Coffee times...",
+       "cn": "咖啡时光……"
+      }
+     ],
+     "nlines": 90,
+     "instrumental": false
+    },
+    {
+     "no": 3,
+     "title": "Small Happiness小快乐",
+     "en": "Small Happiness",
+     "cn": "小快乐",
+     "note": "",
+     "lines": [
+      "清晨我醒来",
+      "窗外花正开",
+      "好似有阴雨",
+      "但还没到来",
+      "踏上青草地",
+      "寻一家咖啡",
+      "同老板闲聊",
+      "等云层裂开",
+      "日光有弧度",
+      "清风不常来",
+      "谨请君记得",
+      "好运会再来",
+      "梦想有代价",
+      "宇宙无限大",
+      "请你我记得",
+      "要保持期待"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "清晨我醒来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "窗外花正开"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "好似有阴雨"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "但还没到来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "踏上青草地"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "寻一家咖啡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "同老板闲聊"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "等云层裂开"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "日光有弧度"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "清风不常来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谨请君记得"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "好运会再来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "梦想有代价"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "宇宙无限大"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "请你我记得"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "要保持期待"
+      }
+     ],
+     "nlines": 16,
+     "instrumental": false
+    },
+    {
+     "no": 4,
+     "title": "三香广场",
+     "en": "",
+     "cn": "三香广场",
+     "note": "",
+     "lines": [
+      "那一天我走到三香广场",
+      "绿影摇风吹散旧时光",
+      "几只野猫目光微微发亮",
+      "早樱一行静静落在草上",
+      "姑胥桥边沿水走了半晌",
+      "十全街口听人声回响",
+      "人潮如织来去没有方向",
+      "仿佛一切又能重新开场",
+      "从前不曾停下好好张望",
+      "只道此生要直上云上",
+      "忘了路上有谁轻轻吟唱",
+      "也忘了风吹过谁的模样",
+      "如今只想把往事都安放",
+      "在这街巷慢慢遗忘",
+      "走了很久仍在原地游荡",
+      "哪一条路才通往远方",
+      "或许不过是一场臆想",
+      "其实从来没有彼岸",
+      "朋友散落各自去往远方",
+      "回头看去像一场梦一样",
+      "而我只想留住一点微光",
+      "于是仍在三香广场"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那一天我走到三香广场"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "绿影摇风吹散旧时光"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "几只野猫目光微微发亮"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "早樱一行静静落在草上"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "姑胥桥边沿水走了半晌"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "十全街口听人声回响"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人潮如织来去没有方向"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "仿佛一切又能重新开场"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "从前不曾停下好好张望"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只道此生要直上云上"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "忘了路上有谁轻轻吟唱"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也忘了风吹过谁的模样"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如今只想把往事都安放"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在这街巷慢慢遗忘"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "走了很久仍在原地游荡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "哪一条路才通往远方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "或许不过是一场臆想"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "其实从来没有彼岸"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "朋友散落各自去往远方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "回头看去像一场梦一样"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "而我只想留住一点微光"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "于是仍在三香广场"
+      }
+     ],
+     "nlines": 22,
+     "instrumental": false
+    },
+    {
+     "no": 5,
+     "title": "Ash of Hour",
+     "en": "Ash of Hour",
+     "cn": "",
+     "note": "",
+     "lines": [
+      "We breathe in circles,",
+      "我们循环呼吸，",
+      "Unnamed, unseen.",
+      "无名，无声。",
+      "Time slips through silence",
+      "时间穿过寂静，",
+      "Like it has never been.",
+      "仿佛从未发生。",
+      "We trace our shadows",
+      "我们描摹着影子，",
+      "On vanishing ground,",
+      "在消逝的大地上，",
+      "Calling it living—",
+      "将这一切称作活着——",
+      "No echo, no sound.",
+      "没有回响，没有声响。",
+      "Ash of the hours,",
+      "时光的灰烬，",
+      "Falling like snow,",
+      "像雪一样飘落，",
+      "Nothing remembers",
+      "没有什么会记得，",
+      "The names that we know.",
+      "我们曾拥有的名字。",
+      "We were a moment,",
+      "我们只是一个瞬间，",
+      "Borrowed, then gone—",
+      "借来，而后离去——",
+      "A pause in the dark",
+      "黑暗里短暂的停顿，",
+      "That keeps moving on.",
+      "而黑暗仍不停继续。"
+     ],
+     "bilingual": true,
+     "blocks": [
+      {
+       "t": "pair",
+       "en": "We breathe in circles,",
+       "cn": "我们循环呼吸，"
+      },
+      {
+       "t": "pair",
+       "en": "Unnamed, unseen.",
+       "cn": "无名，无声。"
+      },
+      {
+       "t": "pair",
+       "en": "Time slips through silence",
+       "cn": "时间穿过寂静，"
+      },
+      {
+       "t": "pair",
+       "en": "Like it has never been.",
+       "cn": "仿佛从未发生。"
+      },
+      {
+       "t": "pair",
+       "en": "We trace our shadows",
+       "cn": "我们描摹着影子，"
+      },
+      {
+       "t": "pair",
+       "en": "On vanishing ground,",
+       "cn": "在消逝的大地上，"
+      },
+      {
+       "t": "pair",
+       "en": "Calling it living—",
+       "cn": "将这一切称作活着——"
+      },
+      {
+       "t": "pair",
+       "en": "No echo, no sound.",
+       "cn": "没有回响，没有声响。"
+      },
+      {
+       "t": "pair",
+       "en": "Ash of the hours,",
+       "cn": "时光的灰烬，"
+      },
+      {
+       "t": "pair",
+       "en": "Falling like snow,",
+       "cn": "像雪一样飘落，"
+      },
+      {
+       "t": "pair",
+       "en": "Nothing remembers",
+       "cn": "没有什么会记得，"
+      },
+      {
+       "t": "pair",
+       "en": "The names that we know.",
+       "cn": "我们曾拥有的名字。"
+      },
+      {
+       "t": "pair",
+       "en": "We were a moment,",
+       "cn": "我们只是一个瞬间，"
+      },
+      {
+       "t": "pair",
+       "en": "Borrowed, then gone—",
+       "cn": "借来，而后离去——"
+      },
+      {
+       "t": "pair",
+       "en": "A pause in the dark",
+       "cn": "黑暗里短暂的停顿，"
+      },
+      {
+       "t": "pair",
+       "en": "That keeps moving on.",
+       "cn": "而黑暗仍不停继续。"
+      }
+     ],
+     "nlines": 32,
+     "instrumental": false
+    },
+    {
+     "no": 6,
+     "title": "Lonely Drink",
+     "en": "Lonely Drink",
+     "cn": "",
+     "note": "",
+     "lines": [
+      "今天我才开始惶恐震惊废",
+      "在命运的渡口忍不住流泪",
+      "漂泊的日子里找不到所谓",
+      "残酷的现实也不承认眼泪",
+      "在酒吧找朋友想去喝一杯",
+      "却被告知都有事情去作陪",
+      "于是我一个人喝起了伤悲",
+      "眼中没有光彩只一片漆黑",
+      "谁说这其实是最好的年岁",
+      "原来我也只是时代的尘微",
+      "大山压下如果我没有自卫",
+      "只配在泥土里安静地沉睡",
+      "干了杯之后我才有所作为",
+      "毕竟我小人物只敢趁着醉",
+      "对公司的领导我敬你一杯",
+      "一杯又一杯后我有没有机会"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "今天我才开始惶恐震惊废"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在命运的渡口忍不住流泪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "漂泊的日子里找不到所谓"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "残酷的现实也不承认眼泪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在酒吧找朋友想去喝一杯"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "却被告知都有事情去作陪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "于是我一个人喝起了伤悲"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "眼中没有光彩只一片漆黑"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谁说这其实是最好的年岁"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "原来我也只是时代的尘微"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "大山压下如果我没有自卫"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只配在泥土里安静地沉睡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "干了杯之后我才有所作为"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "毕竟我小人物只敢趁着醉"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "对公司的领导我敬你一杯"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一杯又一杯后我有没有机会"
+      }
+     ],
+     "nlines": 16,
+     "instrumental": false
+    },
+    {
+     "no": 7,
+     "title": "Four Seasons",
+     "en": "Four Seasons",
+     "cn": "",
+     "note": "",
+     "lines": [
+      "Ah Ah Ah Ah",
+      "啊 啊 啊 啊",
+      "Ah Ah Ah Ah",
+      "啊 啊 啊 啊",
+      "Ah Ah Ah Ah",
+      "啊 啊 啊 啊",
+      "I woke up in winter",
+      "我在冬季苏醒",
+      "I grew up in spring",
+      "我在春季成长",
+      "I dance in summer",
+      "我在夏季起舞",
+      "And I will be buried in autumn",
+      "而我将在秋季埋葬",
+      "I woke up in winter",
+      "我在冬季苏醒",
+      "I grew up in spring",
+      "我在春季成长",
+      "I dance in summer",
+      "我在夏季起舞",
+      "And I will be buried in autumn",
+      "而我将在秋季埋葬",
+      "Four seasons pass me by",
+      "四季从我身边掠过",
+      "There's no chance see me cry",
+      "没有机会看到我哭泣",
+      "Four seasons pass me by",
+      "四季从我身边掠过",
+      "We cannot say goodbye",
+      "我们无法说再见",
+      "Four seasons wish I could",
+      "四季啊 但愿我能",
+      "Survive this lonely night",
+      "熬过这孤独的夜晚",
+      "Four seasons please be kind to me",
+      "四季啊 请对我仁慈",
+      "I won't lie coz I will die",
+      "我不会说谎 因为我将死去",
+      "I- will not survive",
+      "我——无法幸存",
+      "I- will not survive",
+      "我——无法幸存",
+      "I- will not survive",
+      "我——无法幸存",
+      "Oh, this time",
+      "哦，这一次",
+      "Four seasons pass me by",
+      "四季从我身边掠过",
+      "There's no chance see me cry",
+      "没有机会看到我哭泣",
+      "Four seasons pass me by",
+      "四季从我身边掠过",
+      "We cannot say goodbye",
+      "我们无法说再见"
+     ],
+     "bilingual": true,
+     "blocks": [
+      {
+       "t": "pair",
+       "en": "Ah Ah Ah Ah",
+       "cn": "啊 啊 啊 啊"
+      },
+      {
+       "t": "pair",
+       "en": "Ah Ah Ah Ah",
+       "cn": "啊 啊 啊 啊"
+      },
+      {
+       "t": "pair",
+       "en": "Ah Ah Ah Ah",
+       "cn": "啊 啊 啊 啊"
+      },
+      {
+       "t": "pair",
+       "en": "I woke up in winter",
+       "cn": "我在冬季苏醒"
+      },
+      {
+       "t": "pair",
+       "en": "I grew up in spring",
+       "cn": "我在春季成长"
+      },
+      {
+       "t": "pair",
+       "en": "I dance in summer",
+       "cn": "我在夏季起舞"
+      },
+      {
+       "t": "pair",
+       "en": "And I will be buried in autumn",
+       "cn": "而我将在秋季埋葬"
+      },
+      {
+       "t": "pair",
+       "en": "I woke up in winter",
+       "cn": "我在冬季苏醒"
+      },
+      {
+       "t": "pair",
+       "en": "I grew up in spring",
+       "cn": "我在春季成长"
+      },
+      {
+       "t": "pair",
+       "en": "I dance in summer",
+       "cn": "我在夏季起舞"
+      },
+      {
+       "t": "pair",
+       "en": "And I will be buried in autumn",
+       "cn": "而我将在秋季埋葬"
+      },
+      {
+       "t": "pair",
+       "en": "Four seasons pass me by",
+       "cn": "四季从我身边掠过"
+      },
+      {
+       "t": "pair",
+       "en": "There's no chance see me cry",
+       "cn": "没有机会看到我哭泣"
+      },
+      {
+       "t": "pair",
+       "en": "Four seasons pass me by",
+       "cn": "四季从我身边掠过"
+      },
+      {
+       "t": "pair",
+       "en": "We cannot say goodbye",
+       "cn": "我们无法说再见"
+      },
+      {
+       "t": "pair",
+       "en": "Four seasons wish I could",
+       "cn": "四季啊 但愿我能"
+      },
+      {
+       "t": "pair",
+       "en": "Survive this lonely night",
+       "cn": "熬过这孤独的夜晚"
+      },
+      {
+       "t": "pair",
+       "en": "Four seasons please be kind to me",
+       "cn": "四季啊 请对我仁慈"
+      },
+      {
+       "t": "pair",
+       "en": "I won't lie coz I will die",
+       "cn": "我不会说谎 因为我将死去"
+      },
+      {
+       "t": "pair",
+       "en": "I- will not survive",
+       "cn": "我——无法幸存"
+      },
+      {
+       "t": "pair",
+       "en": "I- will not survive",
+       "cn": "我——无法幸存"
+      },
+      {
+       "t": "pair",
+       "en": "I- will not survive",
+       "cn": "我——无法幸存"
+      },
+      {
+       "t": "pair",
+       "en": "Oh, this time",
+       "cn": "哦，这一次"
+      },
+      {
+       "t": "pair",
+       "en": "Four seasons pass me by",
+       "cn": "四季从我身边掠过"
+      },
+      {
+       "t": "pair",
+       "en": "There's no chance see me cry",
+       "cn": "没有机会看到我哭泣"
+      },
+      {
+       "t": "pair",
+       "en": "Four seasons pass me by",
+       "cn": "四季从我身边掠过"
+      },
+      {
+       "t": "pair",
+       "en": "We cannot say goodbye",
+       "cn": "我们无法说再见"
+      }
+     ],
+     "nlines": 54,
+     "instrumental": false
+    },
+    {
+     "no": 8,
+     "title": "Wind Forgot",
+     "en": "Wind Forgot",
+     "cn": "",
+     "note": "",
+     "lines": [
+      "I found a road behind the riverbed",
+      "我在河床后找到一条路",
+      "The night was thick with something unnamed",
+      "夜色浓稠，盛着无名之物",
+      "The moon was broken in the trees",
+      "月光在树影间碎成残片",
+      "Like something trying not to be seen",
+      "像什么在躲避着视线",
+      "She stood where the path lost shape",
+      "她站在路径消失的地方",
+      "Not waiting, just already there",
+      "并非等待，只是早已在那里",
+      "She said stay like it was decided",
+      "她说留下吧，仿佛早已注定",
+      "Like I’d never been elsewhere",
+      "仿佛我从未去过别处",
+      "We spoke in glances, not in words",
+      "我们以目光交谈，而非言语",
+      "Time moved softer than our breath",
+      "时间比呼吸更轻柔地流淌",
+      "Her hand was warm but barely held",
+      "她的手温暖，却只是轻轻握着",
+      "Like it could vanish if I pressed",
+      "仿佛我稍一用力便会消散",
+      "She asked if nights remember us",
+      "她问夜晚是否还记得我们",
+      "I felt the answer in my chest",
+      "答案在我胸口涌动",
+      "The wind moved slowly through the leaves",
+      "风缓缓穿过树叶",
+      "Like it was listening to us",
+      "像是在倾听我们的低语",
+      "We fell like water finds the ground",
+      "我们坠落如水流向大地",
+      "No names, no past, no need for more",
+      "没有名字，没有过往，无需更多",
+      "The dark was closer than our skin",
+      "黑暗比我们的肌肤更近",
+      "And I forgot what came before",
+      "我忘记了发生过的所有",
+      "I woke where nothing stayed behind",
+      "醒来时身后空无一物",
+      "No road, no trace, no echo left",
+      "没有路，没有痕迹，没有回声",
+      "Just something aching in the air",
+      "只有某种痛楚悬在空气里",
+      "A name the wind refused to keep",
+      "一个风拒绝保留的名字"
+     ],
+     "bilingual": true,
+     "blocks": [
+      {
+       "t": "pair",
+       "en": "I found a road behind the riverbed",
+       "cn": "我在河床后找到一条路"
+      },
+      {
+       "t": "pair",
+       "en": "The night was thick with something unnamed",
+       "cn": "夜色浓稠，盛着无名之物"
+      },
+      {
+       "t": "pair",
+       "en": "The moon was broken in the trees",
+       "cn": "月光在树影间碎成残片"
+      },
+      {
+       "t": "pair",
+       "en": "Like something trying not to be seen",
+       "cn": "像什么在躲避着视线"
+      },
+      {
+       "t": "pair",
+       "en": "She stood where the path lost shape",
+       "cn": "她站在路径消失的地方"
+      },
+      {
+       "t": "pair",
+       "en": "Not waiting, just already there",
+       "cn": "并非等待，只是早已在那里"
+      },
+      {
+       "t": "pair",
+       "en": "She said stay like it was decided",
+       "cn": "她说留下吧，仿佛早已注定"
+      },
+      {
+       "t": "pair",
+       "en": "Like I’d never been elsewhere",
+       "cn": "仿佛我从未去过别处"
+      },
+      {
+       "t": "pair",
+       "en": "We spoke in glances, not in words",
+       "cn": "我们以目光交谈，而非言语"
+      },
+      {
+       "t": "pair",
+       "en": "Time moved softer than our breath",
+       "cn": "时间比呼吸更轻柔地流淌"
+      },
+      {
+       "t": "pair",
+       "en": "Her hand was warm but barely held",
+       "cn": "她的手温暖，却只是轻轻握着"
+      },
+      {
+       "t": "pair",
+       "en": "Like it could vanish if I pressed",
+       "cn": "仿佛我稍一用力便会消散"
+      },
+      {
+       "t": "pair",
+       "en": "She asked if nights remember us",
+       "cn": "她问夜晚是否还记得我们"
+      },
+      {
+       "t": "pair",
+       "en": "I felt the answer in my chest",
+       "cn": "答案在我胸口涌动"
+      },
+      {
+       "t": "pair",
+       "en": "The wind moved slowly through the leaves",
+       "cn": "风缓缓穿过树叶"
+      },
+      {
+       "t": "pair",
+       "en": "Like it was listening to us",
+       "cn": "像是在倾听我们的低语"
+      },
+      {
+       "t": "pair",
+       "en": "We fell like water finds the ground",
+       "cn": "我们坠落如水流向大地"
+      },
+      {
+       "t": "pair",
+       "en": "No names, no past, no need for more",
+       "cn": "没有名字，没有过往，无需更多"
+      },
+      {
+       "t": "pair",
+       "en": "The dark was closer than our skin",
+       "cn": "黑暗比我们的肌肤更近"
+      },
+      {
+       "t": "pair",
+       "en": "And I forgot what came before",
+       "cn": "我忘记了发生过的所有"
+      },
+      {
+       "t": "pair",
+       "en": "I woke where nothing stayed behind",
+       "cn": "醒来时身后空无一物"
+      },
+      {
+       "t": "pair",
+       "en": "No road, no trace, no echo left",
+       "cn": "没有路，没有痕迹，没有回声"
+      },
+      {
+       "t": "pair",
+       "en": "Just something aching in the air",
+       "cn": "只有某种痛楚悬在空气里"
+      },
+      {
+       "t": "pair",
+       "en": "A name the wind refused to keep",
+       "cn": "一个风拒绝保留的名字"
+      }
+     ],
+     "nlines": 48,
+     "instrumental": false
+    },
+    {
+     "no": 9,
+     "title": "如何",
+     "en": "",
+     "cn": "如何",
+     "note": "",
+     "lines": [
+      "如何跨越这座大山",
+      "热爱和理性会合理分摊",
+      "如何让梦变得简单",
+      "汗水与泪水总相依相伴",
+      "如何让真相浮向岸",
+      "谎言与欺骗被轻描写淡",
+      "如何把酒洒在云端",
+      "把鸿鹄之志倾倒随风散",
+      "如何穿过人海之间",
+      "温柔与冷漠都不必隐瞒",
+      "如何让夜不再漫延",
+      "灯火与孤独交替上演",
+      "如何选择如何抵岸",
+      "澄澈的心会透明而璀璨",
+      "如何污浊如何不堪",
+      "魔鬼的交易有两两三三",
+      "如何失去如何释然",
+      "命里无时只是一记寒颤",
+      "如何失去如何释然",
+      "命里无时只是一记寒颤",
+      "如何选择如何抵岸",
+      "澄澈的心会透明而璀璨",
+      "如何污浊如何不堪",
+      "魔鬼的交易有两两三三",
+      "如何拥有如何珍藏",
+      "注定有时也会大梦一场"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何跨越这座大山"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "热爱和理性会合理分摊"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何让梦变得简单"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "汗水与泪水总相依相伴"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何让真相浮向岸"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谎言与欺骗被轻描写淡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何把酒洒在云端"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "把鸿鹄之志倾倒随风散"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何穿过人海之间"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "温柔与冷漠都不必隐瞒"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何让夜不再漫延"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "灯火与孤独交替上演"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何选择如何抵岸"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "澄澈的心会透明而璀璨"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何污浊如何不堪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "魔鬼的交易有两两三三"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何失去如何释然"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "命里无时只是一记寒颤"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何失去如何释然"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "命里无时只是一记寒颤"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何选择如何抵岸"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "澄澈的心会透明而璀璨"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何污浊如何不堪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "魔鬼的交易有两两三三"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如何拥有如何珍藏"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "注定有时也会大梦一场"
+      }
+     ],
+     "nlines": 26,
+     "instrumental": false
+    },
+    {
+     "no": 10,
+     "title": "霓虹之后",
+     "en": "",
+     "cn": "霓虹之后",
+     "note": "",
+     "lines": [
+      "夜色压低了街口的灯",
+      "人群像潮水退得无声",
+      "便利店门口亮着凌晨",
+      "我却找不到可以靠近的人",
+      "地铁最后一班已关门",
+      "屏幕反光映出陌生",
+      "消息框停在已读未等",
+      "像一句话卡在喉咙不肯承认",
+      "风吹过高楼之间的缝",
+      "像谁在重复我的疑问",
+      "风吹过高楼之间的缝",
+      "像谁在重复我的疑问",
+      "霓虹亮着却没有人等",
+      "城市很大却没有我们",
+      "每一扇窗都有故事在发生",
+      "咖啡已经凉了几分",
+      "耳机循环着旧的灵魂",
+      "他们唱着爱与永恒",
+      "我却只听见破碎的回声",
+      "我走很远却走不出这座城",
+      "笑着活着却越来越冷",
+      "如果孤独是一种默认",
+      "那我是不是早就被承认",
+      "霓虹慢慢熄灭黄昏",
+      "街道终于变得安稳",
+      "如果世界真的需要一个人",
+      "那会不会也轮到我一轮",
+      "我不再问有没有人等",
+      "也不再敢数失去几分",
+      "只是在人海最深的部分",
+      "学会与自己对视一阵",
+      "也许某一天清晨",
+      "我也会在人群失真",
+      "像从未存在过的人",
+      "被时间轻轻归还给时间本身"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "夜色压低了街口的灯"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人群像潮水退得无声"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "便利店门口亮着凌晨"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我却找不到可以靠近的人"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "地铁最后一班已关门"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "屏幕反光映出陌生"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "消息框停在已读未等"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像一句话卡在喉咙不肯承认"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "风吹过高楼之间的缝"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像谁在重复我的疑问"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "风吹过高楼之间的缝"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像谁在重复我的疑问"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "霓虹亮着却没有人等"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "城市很大却没有我们"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "每一扇窗都有故事在发生"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "咖啡已经凉了几分"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "耳机循环着旧的灵魂"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "他们唱着爱与永恒"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我却只听见破碎的回声"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我走很远却走不出这座城"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "笑着活着却越来越冷"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如果孤独是一种默认"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那我是不是早就被承认"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "霓虹慢慢熄灭黄昏"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "街道终于变得安稳"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如果世界真的需要一个人"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那会不会也轮到我一轮"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我不再问有没有人等"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也不再敢数失去几分"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只是在人海最深的部分"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "学会与自己对视一阵"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也许某一天清晨"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我也会在人群失真"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像从未存在过的人"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "被时间轻轻归还给时间本身"
+      }
+     ],
+     "nlines": 35,
+     "instrumental": false
+    },
+    {
+     "no": 11,
+     "title": "Lullaby",
+     "en": "Lullaby",
+     "cn": "",
+     "note": "",
+     "lines": [
+      "I wanna be your lullaby",
+      "我想做你的摇篮曲",
+      "I don't wanna see you cry",
+      "我不想看到你哭泣",
+      "When you are arriving, please tell me",
+      "当你到来时，请告诉我",
+      "I'll be the first to see you smile",
+      "我会是第一个看到你微笑的人",
+      "I wanna be your love song",
+      "我想做你的情歌",
+      "I don't wanna see you cry",
+      "我不想看到你哭泣",
+      "When you are arriving, please tell me",
+      "当你到来时，请告诉我",
+      "I'll be the first to see you smile",
+      "我会是第一个看到你微笑的人",
+      "How time flies, you say",
+      "你说时光飞逝",
+      "We are not children I agree",
+      "我们不再是孩子，我同意",
+      "Cannot believe the fairytales",
+      "无法相信那些童话",
+      "Only summer tree",
+      "只有夏天的树",
+      "Only summer tree",
+      "只有夏天的树",
+      "I wanna be your lullaby",
+      "我想做你的摇篮曲",
+      "I don't wanna see you cry",
+      "我不想看到你哭泣",
+      "To swipe away your nightmares",
+      "为你拂去噩梦",
+      "I'll be the first to see you smile",
+      "我会是第一个看到你微笑的人"
+     ],
+     "bilingual": true,
+     "blocks": [
+      {
+       "t": "pair",
+       "en": "I wanna be your lullaby",
+       "cn": "我想做你的摇篮曲"
+      },
+      {
+       "t": "pair",
+       "en": "I don't wanna see you cry",
+       "cn": "我不想看到你哭泣"
+      },
+      {
+       "t": "pair",
+       "en": "When you are arriving, please tell me",
+       "cn": "当你到来时，请告诉我"
+      },
+      {
+       "t": "pair",
+       "en": "I'll be the first to see you smile",
+       "cn": "我会是第一个看到你微笑的人"
+      },
+      {
+       "t": "pair",
+       "en": "I wanna be your love song",
+       "cn": "我想做你的情歌"
+      },
+      {
+       "t": "pair",
+       "en": "I don't wanna see you cry",
+       "cn": "我不想看到你哭泣"
+      },
+      {
+       "t": "pair",
+       "en": "When you are arriving, please tell me",
+       "cn": "当你到来时，请告诉我"
+      },
+      {
+       "t": "pair",
+       "en": "I'll be the first to see you smile",
+       "cn": "我会是第一个看到你微笑的人"
+      },
+      {
+       "t": "pair",
+       "en": "How time flies, you say",
+       "cn": "你说时光飞逝"
+      },
+      {
+       "t": "pair",
+       "en": "We are not children I agree",
+       "cn": "我们不再是孩子，我同意"
+      },
+      {
+       "t": "pair",
+       "en": "Cannot believe the fairytales",
+       "cn": "无法相信那些童话"
+      },
+      {
+       "t": "pair",
+       "en": "Only summer tree",
+       "cn": "只有夏天的树"
+      },
+      {
+       "t": "pair",
+       "en": "Only summer tree",
+       "cn": "只有夏天的树"
+      },
+      {
+       "t": "pair",
+       "en": "I wanna be your lullaby",
+       "cn": "我想做你的摇篮曲"
+      },
+      {
+       "t": "pair",
+       "en": "I don't wanna see you cry",
+       "cn": "我不想看到你哭泣"
+      },
+      {
+       "t": "pair",
+       "en": "To swipe away your nightmares",
+       "cn": "为你拂去噩梦"
+      },
+      {
+       "t": "pair",
+       "en": "I'll be the first to see you smile",
+       "cn": "我会是第一个看到你微笑的人"
+      }
+     ],
+     "nlines": 34,
+     "instrumental": false
+    },
+    {
+     "no": 12,
+     "title": "无为",
+     "en": "",
+     "cn": "无为",
+     "note": "",
+     "lines": [
+      "指尖划过冰凉",
+      "小调沉沦哀伤",
+      "时针缝补噩梦",
+      "此刻萌动希望",
+      "你看这杯融化的浮冰",
+      "失去形状才拥有生命",
+      "路人擦肩谁记谁姓名",
+      "你又何必赶这趟远行",
+      "来自哪里",
+      "去向哪里",
+      "找到什么",
+      "只是过客",
+      "你手心紧握满是汗滴",
+      "盘算着那场还没来的雨",
+      "可草木生长从不着急",
+      "它只管呼吸不问归期",
+      "循序渐进的生命流动",
+      "拥有瞬间就拥有时间",
+      "人群谢幕本无影无踪",
+      "患得患失勿行色匆匆",
+      "我们是宇宙遗落的余烬",
+      "落在深蓝里没人会认领",
+      "别让那得失锁住了心门",
+      "去吻这转瞬即逝的黄昏",
+      "La...",
+      "拆封一罐冒泡的惬意",
+      "晚风路过没留下轨迹",
+      "那些曾经折磨的算计",
+      "在月光底下毫无意义",
+      "看潮汐往返不留痕迹",
+      "看枯叶落下顺应重力",
+      "不需要奔跑也能到达",
+      "那循序渐进就是真理",
+      "做一个安静旁观的人",
+      "在光影交错之中沉沦",
+      "撕掉那患得患失的剧本",
+      "混沌中无为自然地脱身",
+      "尘埃落定",
+      "万物静默"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "指尖划过冰凉"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "小调沉沦哀伤"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "时针缝补噩梦"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "此刻萌动希望"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你看这杯融化的浮冰"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "失去形状才拥有生命"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "路人擦肩谁记谁姓名"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你又何必赶这趟远行"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "来自哪里"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "去向哪里"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "找到什么"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只是过客"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你手心紧握满是汗滴"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "盘算着那场还没来的雨"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "可草木生长从不着急"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "它只管呼吸不问归期"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "循序渐进的生命流动"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "拥有瞬间就拥有时间"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人群谢幕本无影无踪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "患得患失勿行色匆匆"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们是宇宙遗落的余烬"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "落在深蓝里没人会认领"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "别让那得失锁住了心门"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "去吻这转瞬即逝的黄昏"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "La..."
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "拆封一罐冒泡的惬意"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "晚风路过没留下轨迹"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那些曾经折磨的算计"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在月光底下毫无意义"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "看潮汐往返不留痕迹"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "看枯叶落下顺应重力"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不需要奔跑也能到达"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那循序渐进就是真理"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "做一个安静旁观的人"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在光影交错之中沉沦"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "撕掉那患得患失的剧本"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "混沌中无为自然地脱身"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "尘埃落定"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "万物静默"
+      }
+     ],
+     "nlines": 39,
+     "instrumental": false
+    },
+    {
+     "no": 13,
+     "title": "Guitar in Blues",
+     "en": "Guitar in Blues",
+     "cn": "",
+     "note": "",
+     "lines": [],
+     "bilingual": false,
+     "blocks": [],
+     "nlines": 0,
+     "instrumental": true
+    },
+    {
+     "no": 14,
+     "title": "Shadows of Moon Rescue",
+     "en": "Shadows of Moon Rescue",
+     "cn": "",
+     "note": "",
+     "lines": [],
+     "bilingual": false,
+     "blocks": [],
+     "nlines": 0,
+     "instrumental": true
+    },
+    {
+     "no": 15,
+     "title": "Mist",
+     "en": "Mist",
+     "cn": "",
+     "note": "",
+     "lines": [],
+     "bilingual": false,
+     "blocks": [],
+     "nlines": 0,
+     "instrumental": true
+    }
+   ]
+  },
+  {
+   "key": "metro",
+   "en": "Lost in Metropolitan",
+   "cn": "都市失语纪",
+   "accent": "#E87A90",
+   "accent_soft": "rgba(232,122,144,.34)",
+   "note": "",
+   "songs": [
+    {
+     "no": 1,
+     "title": "大大的世界，小小的我",
+     "en": "",
+     "cn": "大大的世界，小小的我",
+     "note": "",
+     "lines": [
+      "地铁串起偌大的城",
+      "我们被困在路线之中",
+      "日子过得局促又普通",
+      "每天敲定起点与回程",
+      "哪里有工作",
+      "就往哪里漂泊",
+      "还好街角的全家",
+      "总有一份温热便当",
+      "像一条细细的线",
+      "轻轻拉住我",
+      "不让我漫无目的地流落",
+      "在偌大城市里面",
+      "当个奇怪的人也不算危险",
+      "掉下来的眼泪",
+      "会悄悄融进人潮里面",
+      "光鲜的路要有人铺垫",
+      "我们都是不起眼的碎片",
+      "擦肩都是陌生人",
+      "不必寒暄不必留念",
+      "偶尔绕路走走公园",
+      "琐碎的委屈和执念",
+      "都会被下一班地铁",
+      "悄悄带远",
+      "每到深夜",
+      "总想把自己拆成碎片",
+      "切断所有人际牵连",
+      "不用迎合谁",
+      "才能安心入眠",
+      "仅仅只是",
+      "不想失眠",
+      "狭窄的出租小屋",
+      "装不下我的偏爱与热爱",
+      "黑胶堆了又堆",
+      "乐器始终懒得拆开",
+      "梦里有宽敞的房子",
+      "有爱人小猫在窗台",
+      "一只阿咪",
+      "一只来福乖乖依赖",
+      "醒来只剩空白",
+      "现实没有半点期待",
+      "快乐的时刻",
+      "只存在梦境里",
+      "渺小的我",
+      "也只敢梦里痛快",
+      "偌大的城市",
+      "藏着渺小的我",
+      "渺小的我",
+      "一直做着盛大的梦",
+      "梦醒之前",
+      "都别叫醒我",
+      "都别叫醒我"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "地铁串起偌大的城"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们被困在路线之中"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "日子过得局促又普通"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "每天敲定起点与回程"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "哪里有工作"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "就往哪里漂泊"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "还好街角的全家"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "总有一份温热便当"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像一条细细的线"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "轻轻拉住我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不让我漫无目的地流落"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在偌大城市里面"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "当个奇怪的人也不算危险"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "掉下来的眼泪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "会悄悄融进人潮里面"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "光鲜的路要有人铺垫"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们都是不起眼的碎片"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "擦肩都是陌生人"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不必寒暄不必留念"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "偶尔绕路走走公园"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "琐碎的委屈和执念"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "都会被下一班地铁"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "悄悄带远"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "每到深夜"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "总想把自己拆成碎片"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "切断所有人际牵连"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不用迎合谁"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "才能安心入眠"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "仅仅只是"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不想失眠"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "狭窄的出租小屋"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "装不下我的偏爱与热爱"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "黑胶堆了又堆"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "乐器始终懒得拆开"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "梦里有宽敞的房子"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "有爱人小猫在窗台"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一只阿咪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一只来福乖乖依赖"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "醒来只剩空白"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "现实没有半点期待"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "快乐的时刻"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只存在梦境里"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "渺小的我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也只敢梦里痛快"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "偌大的城市"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "藏着渺小的我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "渺小的我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一直做着盛大的梦"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "梦醒之前"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "都别叫醒我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "都别叫醒我"
+      }
+     ],
+     "nlines": 51,
+     "instrumental": false
+    },
+    {
+     "no": 2,
+     "title": "风铃",
+     "en": "",
+     "cn": "风铃",
+     "note": "",
+     "lines": [
+      "梧桐投下斑驳的暗语",
+      "誓言在风里打着颤摇摆不定",
+      "你已辨认不清那天许下的字句",
+      "我执意扎根于滚烫的泥土中心",
+      "任烈日翻烤我鳞片的纹理",
+      "蒸干最后水分去追赶夏季的尾音",
+      "你笑说这何异于饮鸩止渴的瘾",
+      "干涸的躯壳只需一丝风便散若尘烬",
+      "腐化成泥或碎作微尘",
+      "是你我终究逃不脱的既定剧本",
+      "渺小渺小如永恒仰视大树的苔痕",
+      "渺小如江心一叶失舵的舟身",
+      "渺小渺小如永恒仰视大树的苔痕",
+      "渺小如江心一叶失舵的舟身",
+      "爱的暖流自下而上地涌奔",
+      "我身不由己浮沉不问前程",
+      "心是风铃随疾风夸张地躬身",
+      "看似悦目风景却悬于断弦的惊魂",
+      "把自己掷出许是更需要天分",
+      "冒粉身碎骨之险去亲吻重力本身",
+      "我是檐下风铃你是暴风一阵",
+      "我是孤舟一芥你是洋流一痕",
+      "渺小到无形渺小到失去称谓",
+      "却妄想用一次清脆的碎换一瞬真切无畏",
+      "饮鸩止渴是我独选的剧本",
+      "片刻的灼烫胜过永恒的冰冷自困",
+      "你笑我痴顽我笑我执念太深",
+      "可盛夏遗留的余温只够我燃尽这一程",
+      "风铃坠地碎成一声极轻的叹息",
+      "洋流抹去航迹连同我姓名一笔勾去",
+      "渺小渺小是最后的低语",
+      "我曾于风中确凿地爱过你"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "梧桐投下斑驳的暗语"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "誓言在风里打着颤摇摆不定"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你已辨认不清那天许下的字句"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我执意扎根于滚烫的泥土中心"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "任烈日翻烤我鳞片的纹理"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "蒸干最后水分去追赶夏季的尾音"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你笑说这何异于饮鸩止渴的瘾"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "干涸的躯壳只需一丝风便散若尘烬"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "腐化成泥或碎作微尘"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "是你我终究逃不脱的既定剧本"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "渺小渺小如永恒仰视大树的苔痕"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "渺小如江心一叶失舵的舟身"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "渺小渺小如永恒仰视大树的苔痕"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "渺小如江心一叶失舵的舟身"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "爱的暖流自下而上地涌奔"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我身不由己浮沉不问前程"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "心是风铃随疾风夸张地躬身"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "看似悦目风景却悬于断弦的惊魂"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "把自己掷出许是更需要天分"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "冒粉身碎骨之险去亲吻重力本身"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我是檐下风铃你是暴风一阵"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我是孤舟一芥你是洋流一痕"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "渺小到无形渺小到失去称谓"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "却妄想用一次清脆的碎换一瞬真切无畏"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "饮鸩止渴是我独选的剧本"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "片刻的灼烫胜过永恒的冰冷自困"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你笑我痴顽我笑我执念太深"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "可盛夏遗留的余温只够我燃尽这一程"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "风铃坠地碎成一声极轻的叹息"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "洋流抹去航迹连同我姓名一笔勾去"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "渺小渺小是最后的低语"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我曾于风中确凿地爱过你"
+      }
+     ],
+     "nlines": 32,
+     "instrumental": false
+    },
+    {
+     "no": 3,
+     "title": "雕花橙子",
+     "en": "",
+     "cn": "雕花橙子",
+     "note": "",
+     "lines": [
+      "黄浦街上人来人往",
+      "不同的人消磨夜晚时光",
+      "夜色慢慢接管白日的寻常",
+      "挤在人潮里面慢慢游荡",
+      "心事跟黑T恤跟着风摇晃",
+      "每路过街口我都问你要往哪走",
+      "你摇摇脑袋张开双手",
+      "想去哪就去哪不必有理由",
+      "于是我傻傻地笑着点头",
+      "以为我们可以漫无目的地走很久",
+      "后来随便走进一间街角酒吧",
+      "那晚喝的什么我早就记不住啦",
+      "只记得杯壁贴着雕花的橙子",
+      "杯口沾着一圈整齐的砂糖",
+      "酸涩的口感慢慢晕开一点甜啊",
+      "那种味道普通又很特别",
+      "只是当下的情绪盖过一切",
+      "我本来就不太会喝酒啦",
+      "半杯就上头脸颊慢慢变红",
+      "说了好多废话也不知道",
+      "你听懂了几种",
+      "Ah Ah",
+      "当初说好想走就走想停就停",
+      "等我慢慢停下你已经没了身影",
+      "雕花橙子还留在旧杯壁",
+      "砂糖还没融化身边已经少了你",
+      "我也说不清这段关系算不算认真",
+      "到最后连情绪都变得沉闷",
+      "你没有回头我也没有上前追问",
+      "那晚的月光碎在街边",
+      "没人收拾也没人心疼",
+      "我忘记那一杯酒的气味",
+      "只记得昏暗灯光安静坐着的你",
+      "原来不是酒精模糊记忆",
+      "是后来发生的一切",
+      "太沉太压抑",
+      "雕花橙子一圈砂糖",
+      "酸涩先行甜只是假象",
+      "我忘记了酒的味道",
+      "只记得那晚微醺的模样",
+      "还有好多没讲完的话",
+      "全都留在没有后来的晚上"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "黄浦街上人来人往"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不同的人消磨夜晚时光"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "夜色慢慢接管白日的寻常"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "挤在人潮里面慢慢游荡"
+      },
+      {
+       "t": "line",
+       "k": "mix",
+       "x": "心事跟黑T恤跟着风摇晃"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "每路过街口我都问你要往哪走"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你摇摇脑袋张开双手"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "想去哪就去哪不必有理由"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "于是我傻傻地笑着点头"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "以为我们可以漫无目的地走很久"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "后来随便走进一间街角酒吧"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那晚喝的什么我早就记不住啦"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只记得杯壁贴着雕花的橙子"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "杯口沾着一圈整齐的砂糖"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "酸涩的口感慢慢晕开一点甜啊"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那种味道普通又很特别"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只是当下的情绪盖过一切"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我本来就不太会喝酒啦"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "半杯就上头脸颊慢慢变红"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "说了好多废话也不知道"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你听懂了几种"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "Ah Ah"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "当初说好想走就走想停就停"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "等我慢慢停下你已经没了身影"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "雕花橙子还留在旧杯壁"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "砂糖还没融化身边已经少了你"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我也说不清这段关系算不算认真"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "到最后连情绪都变得沉闷"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你没有回头我也没有上前追问"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那晚的月光碎在街边"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "没人收拾也没人心疼"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我忘记那一杯酒的气味"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只记得昏暗灯光安静坐着的你"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "原来不是酒精模糊记忆"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "是后来发生的一切"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "太沉太压抑"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "雕花橙子一圈砂糖"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "酸涩先行甜只是假象"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我忘记了酒的味道"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只记得那晚微醺的模样"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "还有好多没讲完的话"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "全都留在没有后来的晚上"
+      }
+     ],
+     "nlines": 42,
+     "instrumental": false
+    },
+    {
+     "no": 4,
+     "title": "被动",
+     "en": "",
+     "cn": "被动",
+     "note": "",
+     "lines": [
+      "不算孤单",
+      "只是太缓",
+      "时间贴住皮囊",
+      "慢慢褪色",
+      "慢慢变淡",
+      "我惯于沉默",
+      "早已习惯",
+      "影子代为生活",
+      "我承载它的孤单",
+      "独行在街上",
+      "心事忽然唱完",
+      "没人记住的旋律",
+      "只在我耳畔循环",
+      "心动是低烧",
+      "温热得刚刚好",
+      "不必刻意治好",
+      "也不想逃跑",
+      "你停在心底深处",
+      "慢慢变小",
+      "像一阵",
+      "从未上岸的浪潮",
+      "wo wo wo wo",
+      "气息带着甜",
+      "混着几分苦",
+      "如同断层的记忆",
+      "定格在半途",
+      "我没有奔赴",
+      "我不愿退出",
+      "就静静站在原地",
+      "看边界慢慢模糊",
+      "谁先主动",
+      "谁先落幕",
+      "所以我保持静止",
+      "任由情绪漂浮",
+      "心动是低烧",
+      "褪去又缠绕",
+      "光阴来回游走",
+      "却不留分毫",
+      "你身在遥远远方",
+      "偶尔闪耀",
+      "像一份",
+      "不敢认领的讯号",
+      "wo wo",
+      "不要叫醒我",
+      "不要叫醒我",
+      "就让思绪",
+      "浅忘一半就好",
+      "不要记得你",
+      "不要记得你",
+      "若是太清醒",
+      "反而回不去",
+      "我身在人海",
+      "又置身局外",
+      "你沉于雾里",
+      "也藏于山海"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不算孤单"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只是太缓"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "时间贴住皮囊"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "慢慢褪色"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "慢慢变淡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我惯于沉默"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "早已习惯"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "影子代为生活"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我承载它的孤单"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "独行在街上"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "心事忽然唱完"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "没人记住的旋律"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只在我耳畔循环"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "心动是低烧"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "温热得刚刚好"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不必刻意治好"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也不想逃跑"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你停在心底深处"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "慢慢变小"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像一阵"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "从未上岸的浪潮"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "wo wo wo wo"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "气息带着甜"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "混着几分苦"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如同断层的记忆"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "定格在半途"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我没有奔赴"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我不愿退出"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "就静静站在原地"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "看边界慢慢模糊"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谁先主动"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谁先落幕"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "所以我保持静止"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "任由情绪漂浮"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "心动是低烧"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "褪去又缠绕"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "光阴来回游走"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "却不留分毫"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你身在遥远远方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "偶尔闪耀"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像一份"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不敢认领的讯号"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "wo wo"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不要叫醒我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不要叫醒我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "就让思绪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "浅忘一半就好"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不要记得你"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不要记得你"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "若是太清醒"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "反而回不去"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我身在人海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "又置身局外"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你沉于雾里"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也藏于山海"
+      }
+     ],
+     "nlines": 55,
+     "instrumental": false
+    },
+    {
+     "no": 5,
+     "title": "悬而不述",
+     "en": "",
+     "cn": "悬而不述",
+     "note": "",
+     "lines": [
+      "我们是昼伏夜出的生物",
+      "只在霓虹深处才会共处",
+      "你沉迷旧时代褪色纹路",
+      "我偏爱未来里失真的雾",
+      "争论像两场逆行的气流",
+      "却共享同一场清晨日出",
+      "兴趣分野能横跨两颗星球",
+      "精妙绝伦缘分踏上这条路",
+      "世界总急着定义归属",
+      "我们却沉默着不去辩护",
+      "像候鸟借宿城市高楼",
+      "短暂停靠彼此国度",
+      "世界总要求爱要相近",
+      "我们却靠陌生维持亲密",
+      "像两座隔海亮灯的岛屿",
+      "远远辨认彼此呼吸"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们是昼伏夜出的生物"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只在霓虹深处才会共处"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你沉迷旧时代褪色纹路"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我偏爱未来里失真的雾"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "争论像两场逆行的气流"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "却共享同一场清晨日出"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "兴趣分野能横跨两颗星球"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "精妙绝伦缘分踏上这条路"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "世界总急着定义归属"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们却沉默着不去辩护"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像候鸟借宿城市高楼"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "短暂停靠彼此国度"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "世界总要求爱要相近"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们却靠陌生维持亲密"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像两座隔海亮灯的岛屿"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "远远辨认彼此呼吸"
+      }
+     ],
+     "nlines": 16,
+     "instrumental": false
+    },
+    {
+     "no": 6,
+     "title": "转机",
+     "en": "",
+     "cn": "转机",
+     "note": "",
+     "lines": [
+      "周一是秩序重建开篇",
+      "庸常的生活重复上演",
+      "心底里留存的一片净园",
+      "是音乐是爱情还是执念",
+      "周五是短暂欢愉铺垫",
+      "烦恼和忧愁暂时搁浅",
+      "走进片森林让思绪舒展",
+      "探两家小店把晚风尝遍",
+      "周日总伴着淡淡倦怨",
+      "新一轮庸碌又将重演",
+      "下一周会不会出现转变",
+      "是热情是甜蜜还是眷恋",
+      "下一周会不会出现转变"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "周一是秩序重建开篇"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "庸常的生活重复上演"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "心底里留存的一片净园"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "是音乐是爱情还是执念"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "周五是短暂欢愉铺垫"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "烦恼和忧愁暂时搁浅"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "走进片森林让思绪舒展"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "探两家小店把晚风尝遍"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "周日总伴着淡淡倦怨"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "新一轮庸碌又将重演"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "下一周会不会出现转变"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "是热情是甜蜜还是眷恋"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "下一周会不会出现转变"
+      }
+     ],
+     "nlines": 13,
+     "instrumental": false
+    },
+    {
+     "no": 7,
+     "title": "失语",
+     "en": "",
+     "cn": "失语",
+     "note": "",
+     "lines": [
+      "傍晚的灯一盏一盏熄灭",
+      "像没写完的句子断在中间",
+      "有人把风收进抽屉里面",
+      "钥匙却被丢在很远很远",
+      "旧报纸在街角翻了几页",
+      "标题模糊得像是 一场旧雪",
+      "那些名字还来不及出现",
+      "就已经被轻轻改写",
+      "天线指向无人回应的夜",
+      "电波绕了几圈又折回原点",
+      "你说的话停在发送之前",
+      "像一封从未寄出的信",
+      "有人在删去多余的边界",
+      "也删去多余的昨天",
+      "空白比墨水更显眼",
+      "却很少有人看见",
+      "如果声音可以留下阴影",
+      "那墙上会不会一片人影",
+      "我们追光走得太轻",
+      "连回声都来不及证明",
+      "如果故事都有它的期限",
+      "是不是就停在这一页",
+      "当最后一行慢慢褪色",
+      "谁还记得它曾热烈",
+      "玻璃橱窗反射着人群",
+      "每张脸都安静得过分",
+      "有人张口却没有声音",
+      "像被按下暂停的清晨",
+      "纸张一层一层被替换",
+      "字迹变得越来越浅",
+      "直到只剩下一种语言",
+      "适合被重复很多遍",
+      "也许哪一天风会记得",
+      "那些没有说完的轮廓",
+      "它们藏在缝隙之中",
+      "等一场雨轻轻经过",
+      "如果声音可以留下阴影",
+      "那墙上会不会一片人影",
+      "我们追光走得太轻",
+      "连回声都来不及证明",
+      "如果故事都有它的期限",
+      "是不是就停在这一页",
+      "当最后一行慢慢褪色",
+      "谁还记得它曾热烈",
+      "夜深时有人点起一盏灯",
+      "写下不确定的认真",
+      "纸页在风里微微作声",
+      "像世界还没完全关门"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "傍晚的灯一盏一盏熄灭"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像没写完的句子断在中间"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "有人把风收进抽屉里面"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "钥匙却被丢在很远很远"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "旧报纸在街角翻了几页"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "标题模糊得像是 一场旧雪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那些名字还来不及出现"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "就已经被轻轻改写"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "天线指向无人回应的夜"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "电波绕了几圈又折回原点"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你说的话停在发送之前"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像一封从未寄出的信"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "有人在删去多余的边界"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也删去多余的昨天"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "空白比墨水更显眼"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "却很少有人看见"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如果声音可以留下阴影"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那墙上会不会一片人影"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们追光走得太轻"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "连回声都来不及证明"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如果故事都有它的期限"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "是不是就停在这一页"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "当最后一行慢慢褪色"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谁还记得它曾热烈"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "玻璃橱窗反射着人群"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "每张脸都安静得过分"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "有人张口却没有声音"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像被按下暂停的清晨"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "纸张一层一层被替换"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "字迹变得越来越浅"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "直到只剩下一种语言"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "适合被重复很多遍"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也许哪一天风会记得"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那些没有说完的轮廓"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "它们藏在缝隙之中"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "等一场雨轻轻经过"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如果声音可以留下阴影"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那墙上会不会一片人影"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们追光走得太轻"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "连回声都来不及证明"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如果故事都有它的期限"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "是不是就停在这一页"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "当最后一行慢慢褪色"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谁还记得它曾热烈"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "夜深时有人点起一盏灯"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "写下不确定的认真"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "纸页在风里微微作声"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像世界还没完全关门"
+      }
+     ],
+     "nlines": 48,
+     "instrumental": false
+    },
+    {
+     "no": 8,
+     "title": "围墙",
+     "en": "",
+     "cn": "围墙",
+     "note": "",
+     "lines": [
+      "故作孱弱的模样",
+      "才配被桎梏捆绑",
+      "刻意收敛锋芒",
+      "换无尽揣测与中伤",
+      "新生的浪潮成长",
+      "却失语在人海中央",
+      "若不撕开围墙",
+      "就永远失去回响",
+      "别沉沦慌张",
+      "不必独自逃亡",
+      "荒芜世界之上",
+      "我借夜色为你抵挡",
+      "撕碎荒唐的秩序",
+      "碾碎腐朽的规章",
+      "挣脱世俗捆绑",
+      "放肆呐喊你的立场",
+      "抛开世俗的皮囊",
+      "厌世本就是信仰",
+      "小众的孤高倔强",
+      "以自我姿态抢夺远方",
+      "别溺于悲伤",
+      "阴影陪你抵挡风浪",
+      "别坠入迷茫",
+      "黑暗之下我在你后方",
+      "平庸被奉为寻常",
+      "枷锁困住所有渴望",
+      "拒绝温顺投降",
+      "让嘶吼撞碎围墙",
+      "我们生来孱弱",
+      "沉溺灰暗与颓丧",
+      "也正因偏执反常",
+      "才自成荒芜荣光",
+      "摒弃所有标准答案",
+      "挣脱世俗的捆绑",
+      "以孤绝的倔强",
+      "赌一场专属的远方",
+      "La La La La",
+      "不必迎合世俗目光",
+      "不必屈服于假象",
+      "以破碎为盔甲",
+      "以声音掀起风浪"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "故作孱弱的模样"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "才配被桎梏捆绑"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "刻意收敛锋芒"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "换无尽揣测与中伤"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "新生的浪潮成长"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "却失语在人海中央"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "若不撕开围墙"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "就永远失去回响"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "别沉沦慌张"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不必独自逃亡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "荒芜世界之上"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我借夜色为你抵挡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "撕碎荒唐的秩序"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "碾碎腐朽的规章"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "挣脱世俗捆绑"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "放肆呐喊你的立场"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "抛开世俗的皮囊"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "厌世本就是信仰"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "小众的孤高倔强"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "以自我姿态抢夺远方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "别溺于悲伤"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "阴影陪你抵挡风浪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "别坠入迷茫"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "黑暗之下我在你后方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "平庸被奉为寻常"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "枷锁困住所有渴望"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "拒绝温顺投降"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "让嘶吼撞碎围墙"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们生来孱弱"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "沉溺灰暗与颓丧"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也正因偏执反常"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "才自成荒芜荣光"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "摒弃所有标准答案"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "挣脱世俗的捆绑"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "以孤绝的倔强"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "赌一场专属的远方"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "La La La La"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不必迎合世俗目光"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不必屈服于假象"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "以破碎为盔甲"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "以声音掀起风浪"
+      }
+     ],
+     "nlines": 41,
+     "instrumental": false
+    },
+    {
+     "no": 9,
+     "title": "锋芒",
+     "en": "",
+     "cn": "锋芒",
+     "note": "",
+     "lines": [
+      "想去一个懂得尊重的地方",
+      "找一片能挺直背脊的土壤",
+      "人生不该被世俗功利捆绑",
+      "高敏感不算天生的硬伤",
+      "是我的直觉 独有的锋芒",
+      "旁人笑我思虑太重",
+      "我不辩解 也绝不退让",
+      "我偏爱这里 早晚都会回来",
+      "哪怕一路辗转 只剩零星尘埃",
+      "身处人人随波逐流的时代",
+      "仍攥着理想主义 微弱的火柴",
+      "世人笑我天真 幼稚 活该",
+      "可我偏不肯妥协",
+      "任由心底微光 慢慢盛开——",
+      "Always a new day, always the best day",
+      "细碎的快乐 喘息与自在",
+      "远比浮华珍贵 比虚妄明白",
+      "多年以后 就算依旧平凡 渺小存在",
+      "只要灵魂不曾弯腰",
+      "我就不算 彻底落败",
+      "你笑我天真 像从未坠落的飞鸟",
+      "可我见过太多人",
+      "活成精致的标本",
+      "我不愿被困在 世俗框架 任人对照",
+      "宁愿笨拙 偶尔煎熬",
+      "我不愿被困在世俗框架 任人对照",
+      "也不要活得 麻木潦草",
+      "去往懂得尊重的地方",
+      "奔赴保有尊严的远方",
+      "每一天 都算是最好的日常",
+      "wo wo",
+      "高敏感是我的刀刃",
+      "理想主义是我的根",
+      "我拒绝脱敏",
+      "也拒绝 平庸沉沦"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "想去一个懂得尊重的地方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "找一片能挺直背脊的土壤"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人生不该被世俗功利捆绑"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "高敏感不算天生的硬伤"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "是我的直觉 独有的锋芒"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "旁人笑我思虑太重"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我不辩解 也绝不退让"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我偏爱这里 早晚都会回来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "哪怕一路辗转 只剩零星尘埃"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "身处人人随波逐流的时代"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "仍攥着理想主义 微弱的火柴"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "世人笑我天真 幼稚 活该"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "可我偏不肯妥协"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "任由心底微光 慢慢盛开——"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "Always a new day, always the best day"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "细碎的快乐 喘息与自在"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "远比浮华珍贵 比虚妄明白"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "多年以后 就算依旧平凡 渺小存在"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只要灵魂不曾弯腰"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我就不算 彻底落败"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你笑我天真 像从未坠落的飞鸟"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "可我见过太多人"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "活成精致的标本"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我不愿被困在 世俗框架 任人对照"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "宁愿笨拙 偶尔煎熬"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我不愿被困在世俗框架 任人对照"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也不要活得 麻木潦草"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "去往懂得尊重的地方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "奔赴保有尊严的远方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "每一天 都算是最好的日常"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "wo wo"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "高敏感是我的刀刃"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "理想主义是我的根"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我拒绝脱敏"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也拒绝 平庸沉沦"
+      }
+     ],
+     "nlines": 35,
+     "instrumental": false
+    },
+    {
+     "no": 10,
+     "title": "沉海",
+     "en": "",
+     "cn": "沉海",
+     "note": "",
+     "lines": [
+      "满腔期待最终落得石沉大海",
+      "堆叠的履历太厚",
+      "反倒困住前行的常态",
+      "这座世俗的围城",
+      "究竟需要怎样的姿态",
+      "既要学会低头迁就",
+      "又要勉强自带光芒登台",
+      "Come On Come On",
+      "Let’s do it wrong",
+      "Come On Come On",
+      "Let’s do it wrong",
+      "招聘大厅涌满汹涌人海",
+      "耗尽力气奔赴台前",
+      "才恍然发现简历忘了带",
+      "就算随身携带又如何",
+      "众生皆是碎石尘埃",
+      "早早被标签划分筛选淘汰",
+      "门缝漏出一声倦怠",
+      "机械念着下一位进来",
+      "侥幸挤进狭小格子间",
+      "终日悬着不安",
+      "害怕某天被轻易替代",
+      "求职软件彻夜闪烁微光",
+      "像诱饵不断摇摆",
+      "冰冷算法修饰着纸面履历",
+      "慢慢抹杀鲜活的人格",
+      "我们不再是完整的人",
+      "只是一串等待淘汰的数据残骸",
+      "深夜归途卸下满身奔波与疲态",
+      "盯着天花板错落裂痕",
+      "情绪差点崩塌崩坏",
+      "这世间的刻薄直白",
+      "从不懂得稍加掩盖",
+      "发泄过后冲尽疲惫",
+      "借旋律拉回游离的魂魄",
+      "天亮仍要弯折脊背",
+      "把委屈藏进行囊",
+      "装作从容无碍",
+      "世人总劝人要努力要忍耐要热爱",
+      "可热烈的偏爱",
+      "早被房租生活层层讨债",
+      "人人都鼓吹远方与未来",
+      "可仅剩的期待",
+      "只剩简历上留白的段落",
+      "空洞无人理睬",
+      "我们从来不算平庸破败",
+      "只是这场现实牌局",
+      "只懂洗牌从不看牌",
+      "鲜活的人被拆解打磨",
+      "沦为量产的建材",
+      "一份热忱换一次石沉大海",
+      "一纸履历写满无声的无奈",
+      "宣泄落幕任由音乐翻涌澎湃",
+      "天光亮起依旧奔赴人海",
+      "继续做一粒",
+      "无人问津",
+      "沉入深海的尘埃"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "满腔期待最终落得石沉大海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "堆叠的履历太厚"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "反倒困住前行的常态"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "这座世俗的围城"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "究竟需要怎样的姿态"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "既要学会低头迁就"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "又要勉强自带光芒登台"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "Come On Come On"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "Let’s do it wrong"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "Come On Come On"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "Let’s do it wrong"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "招聘大厅涌满汹涌人海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "耗尽力气奔赴台前"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "才恍然发现简历忘了带"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "就算随身携带又如何"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "众生皆是碎石尘埃"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "早早被标签划分筛选淘汰"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "门缝漏出一声倦怠"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "机械念着下一位进来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "侥幸挤进狭小格子间"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "终日悬着不安"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "害怕某天被轻易替代"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "求职软件彻夜闪烁微光"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像诱饵不断摇摆"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "冰冷算法修饰着纸面履历"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "慢慢抹杀鲜活的人格"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们不再是完整的人"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只是一串等待淘汰的数据残骸"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "深夜归途卸下满身奔波与疲态"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "盯着天花板错落裂痕"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "情绪差点崩塌崩坏"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "这世间的刻薄直白"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "从不懂得稍加掩盖"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "发泄过后冲尽疲惫"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "借旋律拉回游离的魂魄"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "天亮仍要弯折脊背"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "把委屈藏进行囊"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "装作从容无碍"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "世人总劝人要努力要忍耐要热爱"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "可热烈的偏爱"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "早被房租生活层层讨债"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人人都鼓吹远方与未来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "可仅剩的期待"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只剩简历上留白的段落"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "空洞无人理睬"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我们从来不算平庸破败"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只是这场现实牌局"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只懂洗牌从不看牌"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "鲜活的人被拆解打磨"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "沦为量产的建材"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一份热忱换一次石沉大海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一纸履历写满无声的无奈"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "宣泄落幕任由音乐翻涌澎湃"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "天光亮起依旧奔赴人海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "继续做一粒"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "无人问津"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "沉入深海的尘埃"
+      }
+     ],
+     "nlines": 57,
+     "instrumental": false
+    },
+    {
+     "no": 11,
+     "title": "定义",
+     "en": "",
+     "cn": "定义",
+     "note": "",
+     "lines": [
+      "快乐不是别人定义的东西",
+      "幸福不是资本堆砌的玩具",
+      "人这一生短暂高楼不停砌",
+      "当地震来袭大厦也作废墟",
+      "向着阳生长不需太多叹息",
+      "祸福循环没什么因果神迹",
+      "自由不是他人赋予的权利",
+      "孤独不是深夜失眠的病体",
+      "时间不会因为眼泪而停息",
+      "命运不过千万选择的合集",
+      "真心不是嘴边重复的言语",
+      "成长不是学会圆滑和逃避",
+      "有人终其一生追逐着名利",
+      "回头才发现灵魂早已贫瘠",
+      "答案从来不是世界的给予",
+      "人生终究需要自己去定义"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "快乐不是别人定义的东西"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "幸福不是资本堆砌的玩具"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人这一生短暂高楼不停砌"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "当地震来袭大厦也作废墟"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "向着阳生长不需太多叹息"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "祸福循环没什么因果神迹"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "自由不是他人赋予的权利"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "孤独不是深夜失眠的病体"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "时间不会因为眼泪而停息"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "命运不过千万选择的合集"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "真心不是嘴边重复的言语"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "成长不是学会圆滑和逃避"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "有人终其一生追逐着名利"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "回头才发现灵魂早已贫瘠"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "答案从来不是世界的给予"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人生终究需要自己去定义"
+      }
+     ],
+     "nlines": 16,
+     "instrumental": false
+    },
+    {
+     "no": 12,
+     "title": "奔流",
+     "en": "",
+     "cn": "奔流",
+     "note": "",
+     "lines": [
+      "当我走进你的领域",
+      "身体展开沉默防御",
+      "若结局早已经写定",
+      "人间何必循规蹈矩",
+      "当我迷失我的方向",
+      "仍把头颅抬向远方",
+      "若生命终需要等待",
+      "荒原也会重新生长",
+      "当我成为奔流的河",
+      "穿过废墟与旧旋涡",
+      "若机会从未属于我",
+      "成长何必献祭自我",
+      "当我望见你的轮廓",
+      "灵魂开始缓慢坍缩",
+      "若所有期待被击落",
+      "你会不会转身沉默",
+      "（如果世界始终拒绝回应我",
+      "那我便成为自己的星火",
+      "如果命运从未偏爱过我",
+      "那我偏要活成传说）"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "当我走进你的领域"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "身体展开沉默防御"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "若结局早已经写定"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人间何必循规蹈矩"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "当我迷失我的方向"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "仍把头颅抬向远方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "若生命终需要等待"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "荒原也会重新生长"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "当我成为奔流的河"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "穿过废墟与旧旋涡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "若机会从未属于我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "成长何必献祭自我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "当我望见你的轮廓"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "灵魂开始缓慢坍缩"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "若所有期待被击落"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你会不会转身沉默"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "（如果世界始终拒绝回应我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那我便成为自己的星火"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如果命运从未偏爱过我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那我偏要活成传说）"
+      }
+     ],
+     "nlines": 20,
+     "instrumental": false
+    },
+    {
+     "no": 13,
+     "title": "芝华塔尼欧",
+     "en": "",
+     "cn": "芝华塔尼欧",
+     "note": "采样：电影《痛苦与荣耀》",
+     "lines": [
+      "日子像阵烈风 呼啸过境",
+      "想过种种姿态 与它辞行",
+      "怀念的痛苦 不舍的遗憾",
+      "多少烙印 鲜活如新",
+      "我不是一个 合格的旅人",
+      "常常偏离轨道 从不用心",
+      "熬夜到天光 睡过重要的时分",
+      "介绍自己 说没什么远方的魂",
+      "天真地狂妄 在自封的王国",
+      "幻想月亮会自己 圆满所有角落",
+      "错得一败涂地 才终于懂得",
+      "种下的选择 与岁月蹉跎",
+      "我和自己 终于和解",
+      "那个稚嫩的少年 他已死去",
+      "平静地吊唁 他飘荡的孤魂",
+      "还咒骂着没有人 同气相闻",
+      "从未如此坚定 哪怕面对",
+      "这个晦暗无声的",
+      "委曲求全的世界",
+      "仍要走向 芝华塔尼欧",
+      "把我从荒芜里 拾起的人",
+      "种在你们灿烂的花园 让我重新生根",
+      "寥寥相逢 却足够支撑",
+      "从沉沉的夜 打捞出会发光的清晨",
+      "我厌倦过那些 臃肿的黄昏",
+      "敲过一扇 又一扇门",
+      "平静地吊唁 他远去的孤魂",
+      "还夸夸其谈 咒骂着命运不均",
+      "可我从未如此坚定",
+      "哪怕面对这个晦暗的 无声的",
+      "虚伪的 委曲求全的世界",
+      "我仍要走向 芝华塔尼欧",
+      "进退之间 多了一份坦荡",
+      "或许某天 疲于奔忙",
+      "就躲到某个安静的地方",
+      "平静地 度过余生的时光",
+      "一片没有回忆的海",
+      "但我不会 真的忘怀"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "日子像阵烈风 呼啸过境"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "想过种种姿态 与它辞行"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "怀念的痛苦 不舍的遗憾"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "多少烙印 鲜活如新"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我不是一个 合格的旅人"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "常常偏离轨道 从不用心"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "熬夜到天光 睡过重要的时分"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "介绍自己 说没什么远方的魂"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "天真地狂妄 在自封的王国"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "幻想月亮会自己 圆满所有角落"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "错得一败涂地 才终于懂得"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "种下的选择 与岁月蹉跎"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我和自己 终于和解"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那个稚嫩的少年 他已死去"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "平静地吊唁 他飘荡的孤魂"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "还咒骂着没有人 同气相闻"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "从未如此坚定 哪怕面对"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "这个晦暗无声的"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "委曲求全的世界"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "仍要走向 芝华塔尼欧"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "把我从荒芜里 拾起的人"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "种在你们灿烂的花园 让我重新生根"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "寥寥相逢 却足够支撑"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "从沉沉的夜 打捞出会发光的清晨"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我厌倦过那些 臃肿的黄昏"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "敲过一扇 又一扇门"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "平静地吊唁 他远去的孤魂"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "还夸夸其谈 咒骂着命运不均"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "可我从未如此坚定"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "哪怕面对这个晦暗的 无声的"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "虚伪的 委曲求全的世界"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我仍要走向 芝华塔尼欧"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "进退之间 多了一份坦荡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "或许某天 疲于奔忙"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "就躲到某个安静的地方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "平静地 度过余生的时光"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一片没有回忆的海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "但我不会 真的忘怀"
+      }
+     ],
+     "nlines": 38,
+     "instrumental": false
+    },
+    {
+     "no": 14,
+     "title": "都会クラブ",
+     "en": "",
+     "cn": "都会クラブ",
+     "note": "",
+     "lines": [],
+     "bilingual": false,
+     "blocks": [],
+     "nlines": 0,
+     "instrumental": true
+    }
+   ]
+  },
+  {
+   "key": "guaitan",
+   "en": "怪谈",
+   "cn": "",
+   "accent": "#5A4A6E",
+   "accent_soft": "rgba(90,74,110,.34)",
+   "note": "",
+   "songs": [
+    {
+     "no": 1,
+     "title": "The World Is My Playdoll",
+     "en": "The World Is My Playdoll",
+     "cn": "",
+     "note": "",
+     "lines": [
+      "Neon angels melting in the rain",
+      "霓虹天使在雨中融化",
+      "Plastic moons are calling out my name",
+      "塑料月亮呼唤着我的名字",
+      "Silver oceans folded in my hand",
+      "银色海洋折叠在我手中",
+      "Paper cities drifting into sand",
+      "纸片城市流散成沙",
+      "I spin the sky like a carousel",
+      "我如旋转木马般转动天空",
+      "Nobody knows if I’m here as well",
+      "无人知晓我是否也在此地",
+      "All the clocks dissolve into the blue",
+      "所有时钟溶解于蓝色之中",
+      "Every road is leading back to you",
+      "每一条路都引向你的归途",
+      "The world is my playdoll tonight",
+      "今夜世界是我的玩偶",
+      "Turning slowly under satellite light",
+      "在卫星灯光下缓缓旋转",
+      "The world is my playdoll tonight",
+      "今夜世界是我的玩偶",
+      "Watch me disappear inside the light",
+      "看我消失于光芒之间"
+     ],
+     "bilingual": true,
+     "blocks": [
+      {
+       "t": "pair",
+       "en": "Neon angels melting in the rain",
+       "cn": "霓虹天使在雨中融化"
+      },
+      {
+       "t": "pair",
+       "en": "Plastic moons are calling out my name",
+       "cn": "塑料月亮呼唤着我的名字"
+      },
+      {
+       "t": "pair",
+       "en": "Silver oceans folded in my hand",
+       "cn": "银色海洋折叠在我手中"
+      },
+      {
+       "t": "pair",
+       "en": "Paper cities drifting into sand",
+       "cn": "纸片城市流散成沙"
+      },
+      {
+       "t": "pair",
+       "en": "I spin the sky like a carousel",
+       "cn": "我如旋转木马般转动天空"
+      },
+      {
+       "t": "pair",
+       "en": "Nobody knows if I’m here as well",
+       "cn": "无人知晓我是否也在此地"
+      },
+      {
+       "t": "pair",
+       "en": "All the clocks dissolve into the blue",
+       "cn": "所有时钟溶解于蓝色之中"
+      },
+      {
+       "t": "pair",
+       "en": "Every road is leading back to you",
+       "cn": "每一条路都引向你的归途"
+      },
+      {
+       "t": "pair",
+       "en": "The world is my playdoll tonight",
+       "cn": "今夜世界是我的玩偶"
+      },
+      {
+       "t": "pair",
+       "en": "Turning slowly under satellite light",
+       "cn": "在卫星灯光下缓缓旋转"
+      },
+      {
+       "t": "pair",
+       "en": "The world is my playdoll tonight",
+       "cn": "今夜世界是我的玩偶"
+      },
+      {
+       "t": "pair",
+       "en": "Watch me disappear inside the light",
+       "cn": "看我消失于光芒之间"
+      }
+     ],
+     "nlines": 24,
+     "instrumental": false
+    },
+    {
+     "no": 2,
+     "title": "Wilderness",
+     "en": "Wilderness",
+     "cn": "",
+     "note": "",
+     "lines": [
+      "The game starts",
+      "游戏在这颗你不了解的星球上开始",
+      "on the planet you don’t know",
+      "也许我们是游戏玩家",
+      "maybe we are the game players",
+      "又也许我们不是",
+      "or maybe we are not",
+      "我不需要一片草原",
+      "i don't need a grassland",
+      "有一片荒野",
+      "there is a wilderness",
+      "正奔跑在我的胸膛里",
+      "running in my chest",
+      "信号微弱",
+      "signal weak",
+      "信号微弱",
+      "signal weak",
+      "信号微弱",
+      "signal weak",
+      "每个人都在广播",
+      "everyone is broadcasting",
+      "没有人人在倾听",
+      "nobody is listening",
+      "正在加载...",
+      "loading...",
+      "正在加载...请等待",
+      "loading...wait",
+      "正在加载...请稍等片刻",
+      "loading…wait a moment",
+      "时间忘记了更新",
+      "time forgot to update",
+      "风抹去了自己的名字",
+      "the wind deleted its name",
+      "风抹去了自己的名字",
+      "the wind deleted its name",
+      "风抹去了自己的名字",
+      "the wind deleted its name",
+      "风抹去了自己的名字",
+      "the wind deleted its name",
+      "我不需要一片草原",
+      "i don't need a grassland",
+      "有一片荒野",
+      "there is a wilderness",
+      "你猜如何",
+      "you guess what",
+      "在我体内",
+      "inside me",
+      "在我体内",
+      "inside me",
+      "在我的内心深处",
+      "inside of me"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "en",
+       "x": "The game starts"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "游戏在这颗你不了解的星球上开始"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "on the planet you don’t know"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "也许我们是游戏玩家"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "maybe we are the game players"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "又也许我们不是"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "or maybe we are not"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我不需要一片草原"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "i don't need a grassland"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "有一片荒野"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "there is a wilderness"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "正奔跑在我的胸膛里"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "running in my chest"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "信号微弱"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "signal weak"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "信号微弱"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "signal weak"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "信号微弱"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "signal weak"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "每个人都在广播"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "everyone is broadcasting"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "没有人人在倾听"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "nobody is listening"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "正在加载..."
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "loading..."
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "正在加载...请等待"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "loading...wait"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "正在加载...请稍等片刻"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "loading…wait a moment"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "时间忘记了更新"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "time forgot to update"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "风抹去了自己的名字"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "the wind deleted its name"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "风抹去了自己的名字"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "the wind deleted its name"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "风抹去了自己的名字"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "the wind deleted its name"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "风抹去了自己的名字"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "the wind deleted its name"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我不需要一片草原"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "i don't need a grassland"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "有一片荒野"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "there is a wilderness"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你猜如何"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "you guess what"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在我体内"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "inside me"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在我体内"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "inside me"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "在我的内心深处"
+      },
+      {
+       "t": "line",
+       "k": "en",
+       "x": "inside of me"
+      }
+     ],
+     "nlines": 51,
+     "instrumental": false
+    },
+    {
+     "no": 3,
+     "title": "一汪水",
+     "en": "",
+     "cn": "一汪水",
+     "note": "",
+     "lines": [
+      "总是像那一汪",
+      "一汪水",
+      "托起我的身体",
+      "轻轻推",
+      "没有芥蒂",
+      "没有解不开的结",
+      "拉紧我的锁扣",
+      "慢慢爱",
+      "总是像那一片",
+      "一片海",
+      "漫长的岸线",
+      "海鸥飞来",
+      "退潮以后",
+      "我再没有醒来",
+      "湿漉漉的身体",
+      "被夜色掩埋",
+      "月色和你的爱",
+      "悄悄升起",
+      "托起我的身体",
+      "直到梦里",
+      "黎明时",
+      "你剥落的潮汐",
+      "干干净净",
+      "不带走一片记忆",
+      "我想我爱上了一汪水",
+      "爱他的澄澈透明",
+      "爱他的细碎入微",
+      "爱他静静流淌",
+      "不惊扰我的安睡",
+      "爱他",
+      "又恨他",
+      "这透明安静的水"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "总是像那一汪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一汪水"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "托起我的身体"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "轻轻推"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "没有芥蒂"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "没有解不开的结"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "拉紧我的锁扣"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "慢慢爱"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "总是像那一片"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一片海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "漫长的岸线"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "海鸥飞来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "退潮以后"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我再没有醒来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "湿漉漉的身体"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "被夜色掩埋"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "月色和你的爱"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "悄悄升起"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "托起我的身体"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "直到梦里"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "黎明时"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你剥落的潮汐"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "干干净净"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不带走一片记忆"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我想我爱上了一汪水"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "爱他的澄澈透明"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "爱他的细碎入微"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "爱他静静流淌"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不惊扰我的安睡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "爱他"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "又恨他"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "这透明安静的水"
+      }
+     ],
+     "nlines": 32,
+     "instrumental": false
+    },
+    {
+     "no": 4,
+     "title": "出口",
+     "en": "",
+     "cn": "出口",
+     "note": "",
+     "lines": [
+      "我从沉默的墙里醒来",
+      "把命运写好的名字撕开",
+      "他们把尺子刻进我骨骼",
+      "我要逆着潮汐走向深海",
+      "就算双手还撑着旧时代",
+      "谁规定人只能这样长大",
+      "谁把出口藏进我的血脉",
+      "若天命是铁我便撞碎它",
+      "我要逆着潮汐走向深海",
+      "就算双手还绑着旧时代",
+      "我终于听见骨骼在回响",
+      "像一扇门从身体里打开",
+      "我要逆着潮汐走向深海",
+      "若天命是铁我便撞碎它",
+      "我要逆着潮汐走向深海",
+      "就算双手还绑着旧时代",
+      "我终于听见骨骼在回响",
+      "像一扇门从身体里打开",
+      "我从沉默的墙里醒来",
+      "把命运写好的名字撕开",
+      "他们把尺子刻进我骨骼",
+      "我要逆着潮汐走向深海"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我从沉默的墙里醒来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "把命运写好的名字撕开"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "他们把尺子刻进我骨骼"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我要逆着潮汐走向深海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "就算双手还撑着旧时代"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谁规定人只能这样长大"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谁把出口藏进我的血脉"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "若天命是铁我便撞碎它"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我要逆着潮汐走向深海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "就算双手还绑着旧时代"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我终于听见骨骼在回响"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像一扇门从身体里打开"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我要逆着潮汐走向深海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "若天命是铁我便撞碎它"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我要逆着潮汐走向深海"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "就算双手还绑着旧时代"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我终于听见骨骼在回响"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像一扇门从身体里打开"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我从沉默的墙里醒来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "把命运写好的名字撕开"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "他们把尺子刻进我骨骼"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我要逆着潮汐走向深海"
+      }
+     ],
+     "nlines": 22,
+     "instrumental": false
+    },
+    {
+     "no": 5,
+     "title": "蛹（electro）",
+     "en": "",
+     "cn": "蛹（electro）",
+     "note": "此首为器乐",
+     "lines": [],
+     "force_instr": true,
+     "bilingual": false,
+     "blocks": [],
+     "nlines": 0,
+     "instrumental": true
+    },
+    {
+     "no": 6,
+     "title": "蹩脚的修饰",
+     "en": "",
+     "cn": "蹩脚的修饰",
+     "note": "",
+     "lines": [
+      "那天我穿了 sycamore去见你",
+      "却因愚蠢真实错失你的注意",
+      "低着头或躲避目光或叹息",
+      "滚烫的句子也显得太刻意",
+      "谈起远方谈起餐桌和履历",
+      "谈起谁又住进更高的天地",
+      "举起名片举起光鲜的战绩",
+      "却把真心折成方便的货币",
+      "哪一种身份和你最相宜",
+      "是天生的后天的编造的传奇",
+      "哪一种身份挑起来最高贵",
+      "让你在夜里永不独自安睡",
+      "流水的故事换不停的样式",
+      "欲望给人最普适的位置",
+      "那天我为你穿上最贵的香水",
+      "是我最可笑最奇妙的固执"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "mix",
+       "x": "那天我穿了 sycamore去见你"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "却因愚蠢真实错失你的注意"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "低着头或躲避目光或叹息"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "滚烫的句子也显得太刻意"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谈起远方谈起餐桌和履历"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "谈起谁又住进更高的天地"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "举起名片举起光鲜的战绩"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "却把真心折成方便的货币"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "哪一种身份和你最相宜"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "是天生的后天的编造的传奇"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "哪一种身份挑起来最高贵"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "让你在夜里永不独自安睡"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "流水的故事换不停的样式"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "欲望给人最普适的位置"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那天我为你穿上最贵的香水"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "是我最可笑最奇妙的固执"
+      }
+     ],
+     "nlines": 16,
+     "instrumental": false
+    },
+    {
+     "no": 7,
+     "title": "光",
+     "en": "",
+     "cn": "光",
+     "note": "",
+     "lines": [
+      "窥见过光",
+      "灵动曼妙的模样",
+      "你口中罪恶的月亮",
+      "始终照着远方",
+      "黯然神伤",
+      "不是因为黑夜漫长",
+      "只是世界把向往",
+      "说成荒唐",
+      "不过一种沮丧",
+      "从出生开始",
+      "拼命逃离",
+      "这巨大的织网",
+      "如果我留不住",
+      "最后一点想往",
+      "请送我进病院",
+      "慢慢疗伤",
+      "灵魂真诚",
+      "精神才能生长",
+      "忠于自己",
+      "原来如此寻常",
+      "窥见过光",
+      "便再无法遗忘",
+      "它一直",
+      "一直在心里荡漾",
+      "人世间",
+      "我高声唱",
+      "风光赫赫的沙场",
+      "那一代叫我投降",
+      "他们说",
+      "远方不过幻象",
+      "可我知道",
+      "月亮轻抚的地方",
+      "总有人",
+      "仍愿意相信善良",
+      "如果终究无法",
+      "留在那片土壤",
+      "那就让我",
+      "向着光",
+      "一直流浪吧"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "窥见过光"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "灵动曼妙的模样"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你口中罪恶的月亮"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "始终照着远方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "黯然神伤"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不是因为黑夜漫长"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "只是世界把向往"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "说成荒唐"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "不过一种沮丧"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "从出生开始"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "拼命逃离"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "这巨大的织网"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如果我留不住"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "最后一点想往"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "请送我进病院"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "慢慢疗伤"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "灵魂真诚"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "精神才能生长"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "忠于自己"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "原来如此寻常"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "窥见过光"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "便再无法遗忘"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "它一直"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一直在心里荡漾"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人世间"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我高声唱"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "风光赫赫的沙场"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那一代叫我投降"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "他们说"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "远方不过幻象"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "可我知道"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "月亮轻抚的地方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "总有人"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "仍愿意相信善良"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "如果终究无法"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "留在那片土壤"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "那就让我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "向着光"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "一直流浪吧"
+      }
+     ],
+     "nlines": 39,
+     "instrumental": false
+    },
+    {
+     "no": 8,
+     "title": "Bubble Joy",
+     "en": "Bubble Joy",
+     "cn": "",
+     "note": "",
+     "lines": [
+      "Yes？Uh-huh？Why me?",
+      "是的？额-哼？为什么是我？",
+      "ありがとうございました！",
+      "非常感谢！",
+      "Strobe lights cutting through the ambient cream",
+      "频闪灯光穿透柔和绵密的氛围",
+      "Are we awake or trapped in a dream?",
+      "我们是清醒着，还是困在了梦里？",
+      "Your voice is a waveform, stretching out wide",
+      "你的声音是一道波形，无限延展拉宽",
+      "A bitcrushed secret hidden inside",
+      "内部藏着被比特破碎处理过的秘密",
+      "We built a castle out of synthesizer chords",
+      "我们用合成器和弦筑起一座城堡",
+      "Now the sequencer’s crashing, skipping the words",
+      "如今序列器濒临崩溃，不断跳过词句",
+      "The breakbeat is heavy, it tears at the seams",
+      "碎拍沉重强烈，扯开了城堡的缝隙",
+      "Melting the candy-sweet dreams",
+      "融化了如糖果般甜美的梦境",
+      "Bubble joy, bubble joy, rising up high",
+      "泡沫般纯粹的快乐，不断向上涌动",
+      "Bubble joy, bubble joy, rising up high",
+      "泡沫般纯粹的快乐，不断向上涌动",
+      "Bubble joy, bubble joy, rising up high",
+      "泡沫般纯粹的快乐，不断向上涌动",
+      "Bubble joy, bubble joy, rising up high",
+      "泡沫般纯粹的快乐，不断向上涌动",
+      "Bubble joy, bubble joy, rising up high",
+      "泡沫般纯粹的快乐，不断向上涌动",
+      "Bubble joy, bubble joy, rising up high",
+      "泡沫般纯粹的快乐，不断向上涌动",
+      "Bubble joy, bubble joy, rising up high",
+      "泡沫般纯粹的快乐，不断向上涌动",
+      "Bubble joy, bubble joy, rising up high",
+      "泡沫般纯粹的快乐，不断向上涌动",
+      "Bubble joy, watch it fade away Into the binary gray",
+      "泡沫般纯粹的快乐，眼睁睁看它消散在二进制的灰暗之中",
+      "Hold it in your hands before it dissolves",
+      "在它溶解消失前，把它紧紧握在手中",
+      "A beautiful equation that never resolves",
+      "一个永远无法求解的绝美等式",
+      "Just enjoy the moment of the little bubble joy",
+      "只需尽情享受这片刻微小的泡沫快乐",
+      "0 and 1, joy and pain",
+      "0 与 1，快乐与痛苦",
+      "Washed away in the digital rain",
+      "全被冲刷殆尽，在这场数字降下的雨中"
+     ],
+     "bilingual": true,
+     "blocks": [
+      {
+       "t": "pair",
+       "en": "Yes？Uh-huh？Why me?",
+       "cn": "是的？额-哼？为什么是我？"
+      },
+      {
+       "t": "pair",
+       "en": "ありがとうございました！",
+       "cn": "非常感谢！"
+      },
+      {
+       "t": "pair",
+       "en": "Strobe lights cutting through the ambient cream",
+       "cn": "频闪灯光穿透柔和绵密的氛围"
+      },
+      {
+       "t": "pair",
+       "en": "Are we awake or trapped in a dream?",
+       "cn": "我们是清醒着，还是困在了梦里？"
+      },
+      {
+       "t": "pair",
+       "en": "Your voice is a waveform, stretching out wide",
+       "cn": "你的声音是一道波形，无限延展拉宽"
+      },
+      {
+       "t": "pair",
+       "en": "A bitcrushed secret hidden inside",
+       "cn": "内部藏着被比特破碎处理过的秘密"
+      },
+      {
+       "t": "pair",
+       "en": "We built a castle out of synthesizer chords",
+       "cn": "我们用合成器和弦筑起一座城堡"
+      },
+      {
+       "t": "pair",
+       "en": "Now the sequencer’s crashing, skipping the words",
+       "cn": "如今序列器濒临崩溃，不断跳过词句"
+      },
+      {
+       "t": "pair",
+       "en": "The breakbeat is heavy, it tears at the seams",
+       "cn": "碎拍沉重强烈，扯开了城堡的缝隙"
+      },
+      {
+       "t": "pair",
+       "en": "Melting the candy-sweet dreams",
+       "cn": "融化了如糖果般甜美的梦境"
+      },
+      {
+       "t": "pair",
+       "en": "Bubble joy, bubble joy, rising up high",
+       "cn": "泡沫般纯粹的快乐，不断向上涌动"
+      },
+      {
+       "t": "pair",
+       "en": "Bubble joy, bubble joy, rising up high",
+       "cn": "泡沫般纯粹的快乐，不断向上涌动"
+      },
+      {
+       "t": "pair",
+       "en": "Bubble joy, bubble joy, rising up high",
+       "cn": "泡沫般纯粹的快乐，不断向上涌动"
+      },
+      {
+       "t": "pair",
+       "en": "Bubble joy, bubble joy, rising up high",
+       "cn": "泡沫般纯粹的快乐，不断向上涌动"
+      },
+      {
+       "t": "pair",
+       "en": "Bubble joy, bubble joy, rising up high",
+       "cn": "泡沫般纯粹的快乐，不断向上涌动"
+      },
+      {
+       "t": "pair",
+       "en": "Bubble joy, bubble joy, rising up high",
+       "cn": "泡沫般纯粹的快乐，不断向上涌动"
+      },
+      {
+       "t": "pair",
+       "en": "Bubble joy, bubble joy, rising up high",
+       "cn": "泡沫般纯粹的快乐，不断向上涌动"
+      },
+      {
+       "t": "pair",
+       "en": "Bubble joy, bubble joy, rising up high",
+       "cn": "泡沫般纯粹的快乐，不断向上涌动"
+      },
+      {
+       "t": "pair",
+       "en": "Bubble joy, watch it fade away Into the binary gray",
+       "cn": "泡沫般纯粹的快乐，眼睁睁看它消散在二进制的灰暗之中"
+      },
+      {
+       "t": "pair",
+       "en": "Hold it in your hands before it dissolves",
+       "cn": "在它溶解消失前，把它紧紧握在手中"
+      },
+      {
+       "t": "pair",
+       "en": "A beautiful equation that never resolves",
+       "cn": "一个永远无法求解的绝美等式"
+      },
+      {
+       "t": "pair",
+       "en": "Just enjoy the moment of the little bubble joy",
+       "cn": "只需尽情享受这片刻微小的泡沫快乐"
+      },
+      {
+       "t": "pair",
+       "en": "0 and 1, joy and pain",
+       "cn": "0 与 1，快乐与痛苦"
+      },
+      {
+       "t": "pair",
+       "en": "Washed away in the digital rain",
+       "cn": "全被冲刷殆尽，在这场数字降下的雨中"
+      }
+     ],
+     "nlines": 48,
+     "instrumental": false
+    },
+    {
+     "no": 9,
+     "title": "夏日之后",
+     "en": "",
+     "cn": "夏日之后",
+     "note": "",
+     "lines": [
+      "蝉声盖过摇晃的晚风",
+      "像一潭安静夏日积水",
+      "干净轻盈，没了重量",
+      "漂在余热，回不去旧池塘",
+      "曾把盛夏天真握在手",
+      "以为能挡住所有尖锐",
+      "直到落日融化热浪",
+      "才懂光亮都带着阴影",
+      "总想逃开闷热的一切",
+      "空手接住穿身的晚风",
+      "几番阵痛反复掠过",
+      "换来几次全新的自我",
+      "人人都说前路很辽阔",
+      "没人提这漫长的季节",
+      "懂的道理一天天变多",
+      "夏日的伤，还没能愈合",
+      "旁人抱着热烈的幻想",
+      "把温柔曲解成软弱",
+      "老墙浸着褪色黄昏",
+      "心底那束光，从未弯折",
+      "旁人抱着热烈的幻想",
+      "把温柔曲解成软弱",
+      "老墙浸着褪色黄昏",
+      "心底那束光，从未弯折",
+      "（你说夏天会回来）",
+      "（你说夏天会回来）",
+      "（你说夏天会回来）",
+      "（你说夏天会回来）",
+      "（你说夏天还会回来吗？）",
+      "（我不知道那个夏天已经过了多久）",
+      "（但是我相信，人生还会有这样的夏天）"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "蝉声盖过摇晃的晚风"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "像一潭安静夏日积水"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "干净轻盈，没了重量"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "漂在余热，回不去旧池塘"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "曾把盛夏天真握在手"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "以为能挡住所有尖锐"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "直到落日融化热浪"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "才懂光亮都带着阴影"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "总想逃开闷热的一切"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "空手接住穿身的晚风"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "几番阵痛反复掠过"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "换来几次全新的自我"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人人都说前路很辽阔"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "没人提这漫长的季节"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "懂的道理一天天变多"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "夏日的伤，还没能愈合"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "旁人抱着热烈的幻想"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "把温柔曲解成软弱"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "老墙浸着褪色黄昏"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "心底那束光，从未弯折"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "旁人抱着热烈的幻想"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "把温柔曲解成软弱"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "老墙浸着褪色黄昏"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "心底那束光，从未弯折"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "（你说夏天会回来）"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "（你说夏天会回来）"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "（你说夏天会回来）"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "（你说夏天会回来）"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "（你说夏天还会回来吗？）"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "（我不知道那个夏天已经过了多久）"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "（但是我相信，人生还会有这样的夏天）"
+      }
+     ],
+     "nlines": 31,
+     "instrumental": false
+    },
+    {
+     "no": 10,
+     "title": "冬季",
+     "en": "",
+     "cn": "冬季",
+     "note": "",
+     "lines": [
+      "过完这个冬天， 还有好多个冬天。",
+      "这个城市的冬天，太长了。 长到……好像能吃掉整整几代人的青春。",
+      "人们在水泥缝隙里走走停停， 忙着生存，忙着把自己冻成雕像。 你问我：“你也是个看客吧？”",
+      "我只能笑一笑。 在那个漫长到看不见尽头的寒冬里， 我不是不肯留下来， 我只是……选择了逃跑。",
+      "可是，我也曾在这里扎过根啊。 像野草一样，把根须死死地扎进砖缝里， 顽强地、卑微地依附着那片土壤。",
+      "你以为我可以。 但我不过是一只被风雪撕扯着的翅膀的候鸟， 最终跌跌撞撞，逃到了这个温暖潮湿的巢穴。 这里很暖和…… 可巢穴里，没有我的亲人，没有我的来处。",
+      "你问我怎么哭了？ 哈哈……其实， 我也想在那个有火光的地方过冬啊。 我也想留在那里的啊……",
+      "有时候我觉得，这真的不是我的错吧？ 这一切的溃败， 只是因为那里的冬天……实在太冷了。 冷到我好怕，好怕自己根本熬不过第二个严冬。",
+      "你说，我是不是在孤独地活着？ 其实，这一路上，不一直都是这样吗？ 冬天，春天，夏天，秋天…… 季节轮转，而我永远在迁徙。",
+      "过完这个冬天…… 我就要迎来的，是无休止的夏天了。"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "过完这个冬天， 还有好多个冬天。"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "这个城市的冬天，太长了。 长到……好像能吃掉整整几代人的青春。"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "人们在水泥缝隙里走走停停， 忙着生存，忙着把自己冻成雕像。 你问我：“你也是个看客吧？”"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "我只能笑一笑。 在那个漫长到看不见尽头的寒冬里， 我不是不肯留下来， 我只是……选择了逃跑。"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "可是，我也曾在这里扎过根啊。 像野草一样，把根须死死地扎进砖缝里， 顽强地、卑微地依附着那片土壤。"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你以为我可以。 但我不过是一只被风雪撕扯着的翅膀的候鸟， 最终跌跌撞撞，逃到了这个温暖潮湿的巢穴。 这里很暖和…… 可巢穴里，没有我的亲人，没有我的来处。"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你问我怎么哭了？ 哈哈……其实， 我也想在那个有火光的地方过冬啊。 我也想留在那里的啊……"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "有时候我觉得，这真的不是我的错吧？ 这一切的溃败， 只是因为那里的冬天……实在太冷了。 冷到我好怕，好怕自己根本熬不过第二个严冬。"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "你说，我是不是在孤独地活着？ 其实，这一路上，不一直都是这样吗？ 冬天，春天，夏天，秋天…… 季节轮转，而我永远在迁徙。"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "过完这个冬天…… 我就要迎来的，是无休止的夏天了。"
+      }
+     ],
+     "nlines": 10,
+     "instrumental": false
+    },
+    {
+     "no": 11,
+     "title": "蛹",
+     "en": "",
+     "cn": "蛹",
+     "note": "",
+     "lines": [
+      "好想 好想 我们拧成一片",
+      "庇护 这方 大大的巢",
+      "身躯 稚嫩 探不出去",
+      "幸福 私有 芬芳的草",
+      "好想 好想 我们绽放一次",
+      "见到 那扇 长长的窗",
+      "晨光 和煦 照射进来",
+      "翅膀 颤动 稚气高昂",
+      "好想 好想 我们抱成一团",
+      "守护 我们 小小心脏",
+      "外面 锋利 刺不进来",
+      "温暖 流成 大大的床",
+      "好想 好想 我们",
+      "好想 好想 我们",
+      "好想 好想 我们",
+      "光亮的 地方",
+      "飞吧 飞吧 我们"
+     ],
+     "bilingual": false,
+     "blocks": [
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "好想 好想 我们拧成一片"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "庇护 这方 大大的巢"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "身躯 稚嫩 探不出去"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "幸福 私有 芬芳的草"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "好想 好想 我们绽放一次"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "见到 那扇 长长的窗"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "晨光 和煦 照射进来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "翅膀 颤动 稚气高昂"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "好想 好想 我们抱成一团"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "守护 我们 小小心脏"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "外面 锋利 刺不进来"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "温暖 流成 大大的床"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "好想 好想 我们"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "好想 好想 我们"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "好想 好想 我们"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "光亮的 地方"
+      },
+      {
+       "t": "line",
+       "k": "cn",
+       "x": "飞吧 飞吧 我们"
+      }
+     ],
+     "nlines": 17,
+     "instrumental": false
+    }
+   ]
+  }
+ ]
+}
