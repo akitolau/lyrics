@@ -367,8 +367,8 @@ def build():
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>歌词 · 两张精选专辑</title>
-<meta name="description" content="Seasons of Music / 都市失语纪 Lost in Metropolitan —— 两张精选专辑的全部歌词，{n_tracks} 首曲目。">
+<title>歌词 · {CN_NUM.get(len(albums), len(albums))}张专辑</title>
+<meta name="description" content="{' / '.join(a['en'] for a in albums)} —— {len(albums)} 张专辑的全部歌词，{n_tracks} 首曲目。">
 <meta name="author" content="Akito Lau">
 <meta name="theme-color" content="#F5F0E0">
 <link rel="icon" href="{FAVICON}">
